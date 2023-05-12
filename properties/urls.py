@@ -1,0 +1,8 @@
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+    path('', index, name="index"),
+    path('api/offplans/', OffPlansPropertyListAPIView.as_view()),
+    path('api/offplans/<int:pk>/', OffPlansPropertyDetailAPIView.as_view()),
+]

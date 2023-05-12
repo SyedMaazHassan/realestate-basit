@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="width: 100%; height: 100%; text-align: center;">
+        <div style="margin-top:50px;">
+            <img src="{% static 'flipo-logo.png' %}" style="width: 60px; border-radius: 100px;" alt="">            
+            <br>
+            <img style="width: 450px;" src="https://cdn.dribbble.com/users/13754/screenshots/5552890/runner2.gif" alt="">
+            <p style="font-size: 20px; color:#a0a0a0; font-family:Verdana, Geneva, Tahoma, sans-serif">APIs are up and running</p>
+        </div>
+    </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-messaging.js"></script>
+
+
+
+<script>
+
+    // const firebaseConfig = {
+    //     apiKey: "AIzaSyBAWFGepKYfB24nTs8OBtRtFlKHBNwEqJY",
+    //     authDomain: "point-pay-a430e.firebaseapp.com",
+    //     databaseURL: "https://point-pay-a430e-default-rtdb.firebaseio.com",
+    //     projectId: "point-pay-a430e",
+    //     storageBucket: "point-pay-a430e.appspot.com",
+    //     messagingSenderId: "328769959565",
+    //     appId: "1:328769959565:web:ec32dd56ae45ce5f7ed4c4",
+    //     measurementId: "G-RH6ZSWFPSH",
+    // };
+    // // Initialize Firebase
+    // var point_location;
+    // firebase.initializeApp(firebaseConfig);
+
+
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyBotNVsLYlWRTT3J0Pe5aROhqZ6250PiUc",
+        authDomain: "flipo-notification.firebaseapp.com",
+        projectId: "flipo-notification",
+        databaseURL: "https://flipo-notification-default-rtdb.firebaseio.com",
+        storageBucket: "flipo-notification.appspot.com",
+        messagingSenderId: "496429988279",
+        appId: "1:496429988279:web:fe5cff68df7b053cb29032",
+        measurementId: "G-95VS4G1PJ2"
+    };
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    // firebase.analytics();
+  
+    const messaging = firebase.messaging();
+    // console.log(messaging.getToken())
+
+
+    messaging.getToken({ vapidKey: 'BKigmKCfPrt5MMDU48l0s-LfDqfR7VMhG3O6b1INPPPgyioy3PjPriAEuwXho4FUUVK5nLJSB9SJBVOeczwUDYQ' }).then((currentToken) => {
+    if (currentToken) {
+        console.log(currentToken);
+        // Send the token to your server and update the UI if necessary
+        // ...
+    } else {
+        // Show permission request UI
+        console.log('No registration token available. Request permission to generate one.');
+        // ...
+    }
+    }).catch((err) => {
+        console.log('An error occurred while retrieving token. ', err);
+    // ...
+    });
+  
+  
+    messaging
+     .requestPermission()
+     .then(function () {
+       console.log("Notification permission granted.");
+       return messaging.getToken()
+     })
+     .catch(function (err) {
+     console.log("Unable to get permission to notify.", err);
+   });
+  
+  
+    messaging.onMessage((payload) => {
+        console.log('Message received. ', payload);
+    });
+
+
+
+
+
+    // Check for real time notification
+    let roomName = "{{ room_id }}";
+    let chatSocket = new WebSocket(
+        'ws://'
+        + window.location.host
+        + '/ws/'
+        + '1fac7dd9122c494a980a4661942dca09'
+        + '/'
+    );
+    
+    chatSocket.onmessage = function(e) {
+        const data = JSON.parse(e.data);
+        const notification = data.notification;
+        console.log(notification);
+        // AddNotification(
+        //     notification.subject, 
+        //     notification.body, 
+        //     notification.budget,
+        //     notification.time, 
+        //     notification.link
+        // );
+        // increaseNotificationCount();
+        // playSound();
+
+    };
+    
+    chatSocket.onclose = function(e) {
+        console.error('Chat socket closed unexpectedly');
+    };
+  
+  
+  
+</script>
+
+
+</html>
