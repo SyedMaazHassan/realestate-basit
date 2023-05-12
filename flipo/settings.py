@@ -259,11 +259,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 AUTH_USER_MODEL = 'auth.User'
 
 
-
 API_KEY_CUSTOM_HEADER = "HTTP_X_API_KEY"
 
 
 CORS_ORIGIN_ALLOW_ALL = True
+
 CORS_ALLOW_METHODS = [
     'DELETE',
     'GET',
@@ -273,3 +273,4 @@ CORS_ALLOW_METHODS = [
     'PUT',
 ]
 
+CORS_ORIGIN_WHITELIST = ['http://localhost:3000',]
