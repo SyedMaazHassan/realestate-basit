@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import OffPlansProperty, Location, Gallery, Amenity
+from .models import News, OffPlansProperty, Location, Gallery, Amenity
 from django_quill.forms import QuillFormField
 
 
@@ -39,6 +39,24 @@ class OffPlansPropertyDetailSerializer(serializers.ModelSerializer):
         model = OffPlansProperty
         fields = '__all__'
 
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        ret['description'] = str(instance.description.html)
+        return ret
+    
+
+
+class NewsListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = News
+        exclude = ('description',)
+
+
+class NewsDetailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = News
+        fields = "__all__"
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)

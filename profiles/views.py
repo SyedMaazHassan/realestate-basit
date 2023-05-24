@@ -1,10 +1,35 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from properties.models import Amenity, OffPlansProperty, Location
+from properties.models import Amenity, OffPlansProperty, Location, News
 from faker import Faker
 from django.db import transaction
+from bs4 import BeautifulSoup
+from django.utils.html import escape
 
 fake = Faker()
+
+def create_fake_news():
+    for _ in range(10):
+        news = News(
+            title=fake.sentence(),
+            subtitle=fake.sentence()
+        )
+        news.save()
+
+
+def generate_fake_quill_text():
+    fake_html = f"<p>{fake.paragraph()}</p>"
+
+    # Convert the fake HTML string into a BeautifulSoup object
+    soup = BeautifulSoup(fake_html, "html.parser")
+
+    # Manipulate the soup object if needed (e.g., add/remove tags, modify content)
+
+    # Convert the soup object back to a string
+    modified_html = str(soup)
+
+    return modified_html
+
 
 @transaction.atomic
 def create_properties(num_properties):
@@ -28,20 +53,6 @@ def create_properties(num_properties):
 def index(request):
 
     # create_properties(20)
-
-    # properties = OffPlansProperty.objects.all()
-
-
-
-    # # # Loop through each property and add location object
-    # for property in properties:
-    #     # Create location object
-    #     location = Location.objects.create(
-    #         property=property,
-    #         address=fake.address(),
-    #         latitude=fake.latitude(),
-    #         longitude=fake.longitude()
-    #     )
-    #     location.save()
+    create_fake_news()
 
     return HttpResponse("good")

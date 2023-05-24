@@ -92,6 +92,7 @@ class OffPlansProperty(models.Model):
     broucher = models.FileField(upload_to='brochures/', null=True, blank=True, verbose_name='Brochure')
     youtube_video_link = models.URLField(verbose_name='YouTube Video Link')
     amenities = models.ManyToManyField('Amenity', verbose_name='Amenities')
+    created_at = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return self.title
@@ -123,3 +124,17 @@ class Gallery(models.Model):
 
     def __str__(self):
         return f'{self.property.title} - {self.type}'
+    
+
+class News(models.Model):
+    thumbnail = models.ImageField(upload_to="thumbnails", null=True, blank=True, default="thumbnails/default-news.jpeg")
+    title = models.CharField(max_length=255, verbose_name='Title')
+    subtitle = models.CharField(max_length=255, verbose_name='Subtitle')
+    description = QuillField(verbose_name='Description')
+    created_at = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return self.title
+    
+    class Meta:
+        ordering = ("-created_at",)

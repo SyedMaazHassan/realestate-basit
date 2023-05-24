@@ -1,5 +1,5 @@
 import django_filters
-from .models import OffPlansProperty
+from .models import OffPlansProperty, News
 
 
 class OffPlansPropertyFilter(django_filters.FilterSet):
@@ -12,3 +12,12 @@ class OffPlansPropertyFilter(django_filters.FilterSet):
     class Meta:
         model = OffPlansProperty
         fields = ['title', 'min_price', 'max_price', 'developer', 'handover_date']
+
+
+class NewsFilter(django_filters.FilterSet):
+    title = django_filters.CharFilter(lookup_expr='icontains')
+    subtitle = django_filters.CharFilter(lookup_expr='icontains')
+    
+    class Meta:
+        model = News
+        fields = ['title', 'subtitle']

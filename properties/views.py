@@ -6,7 +6,10 @@ from rest_framework.generics import RetrieveAPIView
 from django.http import HttpResponse
 from .models import OffPlansProperty
 from .serializers import *
-from .filters import OffPlansPropertyFilter
+from .filters import OffPlansPropertyFilter, NewsFilter
+
+
+
 
 
 def index(request):
@@ -22,9 +25,6 @@ class OffPlansPropertyListAPIView(generics.ListAPIView):
     ordering_fields = ['min_price', 'max_price', 'handover_date']
 
 
-
-
-
 class OffPlansPropertyDetailAPIView(RetrieveAPIView):
     serializer_class = OffPlansPropertyDetailSerializer
     queryset = OffPlansProperty.objects.all()
@@ -34,3 +34,18 @@ class OffPlansPropertyDetailAPIView(RetrieveAPIView):
         serializer = self.get_serializer(instance)
         data = serializer.data
         return Response({'status': 'success', 'data': data}, status=status.HTTP_200_OK)
+
+
+
+class NewsListView(generics.ListAPIView):
+    queryset = News.objects.all()
+    serializer_class = NewsListSerializer
+    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+    filterset_class = NewsFilter
+    search_fields = ['title', 'subtitle']
+    ordering_fields = ['created_at']
+
+
+class NewsDetailAPIView(RetrieveAPIView):
+    serializer_class = NewsDetailSerializer
+    queryset = News.objects.all()
