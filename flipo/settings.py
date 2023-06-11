@@ -263,7 +263,6 @@ AUTH_USER_MODEL = 'auth.User'
 
 API_KEY_CUSTOM_HEADER = "HTTP_X_API_KEY"
 
-
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOW_METHODS = [
@@ -280,3 +279,6 @@ CORS_ALLOW_HEADERS = [
     'x-api-key',
     'Content-Type'
 ]
+
+
+
