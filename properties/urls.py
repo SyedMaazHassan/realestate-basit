@@ -11,4 +11,7 @@ urlpatterns = [
 
     path('api/contact-forms', ContactFormCreateView.as_view(), name='contact-forms-create'),
 
+    path('api/open-houses', OpenHouseListView.as_view(), name='open-houses-list'),
+
+
 ]

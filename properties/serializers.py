@@ -1,7 +1,13 @@
 from rest_framework import serializers
-from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm
+from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm, OpenHouse
 from django_quill.forms import QuillFormField
 
+
+
+class OpenHouseSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = OpenHouse
+        fields = '__all__'
 
 
 class OffPlansPropertySerializer(serializers.ModelSerializer):

@@ -4,10 +4,11 @@ from rest_framework import filters
 from rest_framework.response import Response
 from rest_framework.generics import RetrieveAPIView
 from django.http import HttpResponse
-from .models import OffPlansProperty
+from .models import OffPlansProperty, OpenHouse, News, ContactForm
 from .serializers import *
 from .filters import OffPlansPropertyFilter, NewsFilter
 from rest_framework.exceptions import MethodNotAllowed
+
 
 
 
@@ -51,7 +52,6 @@ class NewsDetailAPIView(RetrieveAPIView):
     queryset = News.objects.all()
 
 
-
 class ContactFormCreateView(generics.CreateAPIView):
     queryset = ContactForm.objects.all()
     serializer_class = ContactFormSerializer
@@ -64,3 +64,8 @@ class ContactFormCreateView(generics.CreateAPIView):
 
     def put(self, request, *args, **kwargs):
         raise MethodNotAllowed("PUT")
+    
+
+class OpenHouseListView(generics.ListCreateAPIView):
+    queryset = OpenHouse.objects.all()
+    serializer_class = OpenHouseSerializer

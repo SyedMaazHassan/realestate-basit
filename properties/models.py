@@ -80,7 +80,7 @@ class Amenity(models.Model):
 
 
 class OffPlansProperty(models.Model):
-    thumbnail = models.ImageField(upload_to="thumbnails", null=True, blank=True)
+    thumbnail = models.ImageField(upload_to="off-plan-thumbnails", null=True, blank=True)
     title = models.CharField(max_length=255, verbose_name='Title')
     subtitle = models.CharField(max_length=255, verbose_name='Subtitle')
     description = QuillField(verbose_name='Description')
@@ -127,7 +127,7 @@ class Gallery(models.Model):
     
 
 class News(models.Model):
-    thumbnail = models.ImageField(upload_to="thumbnails", null=True, blank=True, default="thumbnails/default-news.jpeg")
+    thumbnail = models.ImageField(upload_to="news-thumbnails", null=True, blank=True, default="thumbnails/default-news.jpeg")
     title = models.CharField(max_length=255, verbose_name='Title')
     subtitle = models.CharField(max_length=255, verbose_name='Subtitle')
     description = QuillField(verbose_name='Description')
@@ -147,3 +147,9 @@ class ContactForm(models.Model):
     phone = PhoneNumberField()
     received_at = models.DateTimeField(default = timezone.now)
 
+
+class OpenHouse(models.Model):
+    image = models.ImageField(upload_to="open-houses-thumbnails", null=True, blank=True, default="thumbnails/open-house-default.jpg")
+    title = models.CharField(max_length=255)
+    location = models.CharField(max_length=255)
+    datetime = models.DateTimeField()
