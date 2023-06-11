@@ -13,5 +13,5 @@ urlpatterns = [
 
     path('api/open-houses', OpenHouseListView.as_view(), name='open-houses-list'),
 
-
+    path('api/fetch-properties', XMLAPIView.as_view(), name='xml_to_json')
 ]

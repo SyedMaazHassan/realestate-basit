@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm, OpenHouse
 from django_quill.forms import QuillFormField
+import xmltodict
 
 
 
@@ -14,7 +15,6 @@ class OffPlansPropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = OffPlansProperty
         fields = ['id', 'thumbnail', 'title', 'subtitle', 'min_price', 'max_price', 'developer', 'project_company_logo', 'handover_date']
-
 
 
 class AmenitySerializer(serializers.ModelSerializer):
@@ -74,3 +74,12 @@ class ContactFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = ContactForm
         fields = '__all__'
+
+
+class XMLSerializer(serializers.Serializer):
+    xml_data = serializers.CharField()
+
+    def to_representation(self, instance):
+        xml_data = instance['xml_data']
+        json_data = xmltodict.parse(xml_data)
+        return json_data

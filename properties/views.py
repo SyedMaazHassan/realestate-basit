@@ -8,9 +8,8 @@ from .models import OffPlansProperty, OpenHouse, News, ContactForm
 from .serializers import *
 from .filters import OffPlansPropertyFilter, NewsFilter
 from rest_framework.exceptions import MethodNotAllowed
-
-
-
+from rest_framework.views import APIView
+import requests
 
 
 def index(request):
@@ -69,3 +68,18 @@ class ContactFormCreateView(generics.CreateAPIView):
 class OpenHouseListView(generics.ListCreateAPIView):
     queryset = OpenHouse.objects.all()
     serializer_class = OpenHouseSerializer
+
+
+
+class XMLAPIView(APIView):
+
+    def get(self, request, format=None):
+        # Make the API request and get the XML response
+        api_url = 'https://expert.propertyfinder.ae/feed/trinity/propertyfinder/80a211e68bcee54978fb26e4ccd6a9f3?offering_type=RS'
+        api_response = requests.get(api_url)
+        xml_data = api_response.text
+
+        # Convert the XML response to JSON
+        json_data = xmltodict.parse(xml_data)
+
+        return Response(json_data)
