@@ -280,7 +280,7 @@ CORS_ALLOW_HEADERS = [
     'x-api-key',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:3000',
-#     'http://127.0.0.1:5502',
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:5502',
+]
