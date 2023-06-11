@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import News, OffPlansProperty, Gallery, Location, Amenity, APIKey
+from .models import News, OffPlansProperty, Gallery, Location, Amenity, APIKey, ContactForm
 
 class GalleryInline(admin.TabularInline):
     model = Gallery
@@ -32,6 +32,12 @@ class LocationAdmin(admin.ModelAdmin):
 @admin.register(Amenity)
 class AmenityAdmin(admin.ModelAdmin):
     list_display = ['name', 'icon']
+
+@admin.register(ContactForm)
+class ContactFormAdmin(admin.ModelAdmin):
+    list_display = ['form_name', 'name', 'phone', 'email', 'received_at']
+
+    
 
 admin.site.register(APIKey)
 admin.site.register(News)

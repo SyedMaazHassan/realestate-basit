@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'profiles',
     'properties',
     'django_quill',
+    'phonenumber_field'
 ]
 
 

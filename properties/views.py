@@ -7,7 +7,7 @@ from django.http import HttpResponse
 from .models import OffPlansProperty
 from .serializers import *
 from .filters import OffPlansPropertyFilter, NewsFilter
-
+from rest_framework.exceptions import MethodNotAllowed
 
 
 
@@ -49,3 +49,18 @@ class NewsListView(generics.ListAPIView):
 class NewsDetailAPIView(RetrieveAPIView):
     serializer_class = NewsDetailSerializer
     queryset = News.objects.all()
+
+
+
+class ContactFormCreateView(generics.CreateAPIView):
+    queryset = ContactForm.objects.all()
+    serializer_class = ContactFormSerializer
+
+    def delete(self, request, *args, **kwargs):
+        raise MethodNotAllowed("DELETE")
+    
+    def get(self, request, *args, **kwargs):
+        raise MethodNotAllowed("GET")
+
+    def put(self, request, *args, **kwargs):
+        raise MethodNotAllowed("PUT")

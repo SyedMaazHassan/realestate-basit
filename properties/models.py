@@ -3,7 +3,7 @@ from django.utils import timezone
 from profiles.models import Agent
 from django_quill.fields import QuillField
 from rest_framework_api_key.models import AbstractAPIKey
-
+from phonenumber_field.modelfields import PhoneNumberField
 
 # python manage.py makemigrations
 # python manage.py migrate
@@ -138,3 +138,12 @@ class News(models.Model):
     
     class Meta:
         ordering = ("-created_at",)
+
+
+class ContactForm(models.Model):
+    form_name = models.CharField(max_length=255)    
+    name = models.CharField(max_length = 255)
+    email = models.EmailField()
+    phone = PhoneNumberField()
+    received_at = models.DateTimeField(default = timezone.now)
+
