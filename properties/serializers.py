@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm, OpenHouse
+from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm, OpenHouse, PopularArea
+from profiles.models import SocialProfile, AgentProfile
 from django_quill.forms import QuillFormField
 import xmltodict
 
@@ -76,6 +77,12 @@ class ContactFormSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
+class PopularAreaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PopularArea
+        fields = '__all__'
+
+
 class XMLSerializer(serializers.Serializer):
     xml_data = serializers.CharField()
 
@@ -83,3 +90,17 @@ class XMLSerializer(serializers.Serializer):
         xml_data = instance['xml_data']
         json_data = xmltodict.parse(xml_data)
         return json_data
+
+
+class SocialProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SocialProfile
+        fields = ['facebook', 'linkedin', 'twitter']
+
+
+class AgentProfileSerializer(serializers.ModelSerializer):
+    social_profile = SocialProfileSerializer()
+
+    class Meta:
+        model = AgentProfile
+        fields = ['id', 'name', 'designation', 'social_profile']

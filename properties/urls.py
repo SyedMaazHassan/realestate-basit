@@ -13,5 +13,10 @@ urlpatterns = [
 
     path('api/open-houses', OpenHouseListView.as_view(), name='open-houses-list'),
 
-    path('api/fetch-properties', XMLAPIView.as_view(), name='xml_to_json')
+    path('api/fetch-properties', XMLAPIView.as_view(), name='xml_to_json'),
+
+    path('api/popular-areas', PopularAreaListView.as_view(), name='popular-area-list'),
+
+    path('api/agent-profiles', AgentProfileListView.as_view(), name='agent-profile-list'),
+    
 ]

@@ -46,6 +46,16 @@ class NewsListView(generics.ListAPIView):
     ordering_fields = ['created_at']
 
 
+class PopularAreaListView(generics.ListAPIView):
+    queryset = PopularArea.objects.all()
+    serializer_class = PopularAreaSerializer
+
+
+class AgentProfileListView(generics.ListAPIView):
+    queryset = AgentProfile.objects.all()
+    serializer_class = AgentProfileSerializer
+
+
 class NewsDetailAPIView(RetrieveAPIView):
     serializer_class = NewsDetailSerializer
     queryset = News.objects.all()
@@ -68,7 +78,6 @@ class ContactFormCreateView(generics.CreateAPIView):
 class OpenHouseListView(generics.ListCreateAPIView):
     queryset = OpenHouse.objects.all()
     serializer_class = OpenHouseSerializer
-
 
 
 class XMLAPIView(APIView):

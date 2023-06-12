@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Agent, TeamMember, SocialProfile
+from .models import Agent, TeamMember, SocialProfile, AgentProfile
 
 
 class PersonAdmin(admin.ModelAdmin):
@@ -14,6 +14,11 @@ class TeamMemberAdmin(PersonAdmin):
     list_display += ('created_at',)
 
 
+class AgentProfileAdmin(admin.ModelAdmin):
+    list_display = ('name', 'designation')
+
+
+admin.site.register(AgentProfile, AgentProfileAdmin)
 admin.site.register(SocialProfile)
 admin.site.register(Agent, AgentAdmin)
 admin.site.register(TeamMember, TeamMemberAdmin)

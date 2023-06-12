@@ -33,3 +33,9 @@ class Agent(Person):
 
 class TeamMember(Person):
     designation = models.CharField(max_length=255)
+
+
+class AgentProfile(models.Model):
+    name = models.CharField(max_length=255)
+    designation = models.CharField(max_length=255)
+    social_profile = models.OneToOneField(SocialProfile, on_delete=models.CASCADE)

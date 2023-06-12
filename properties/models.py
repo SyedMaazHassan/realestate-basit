@@ -153,3 +153,9 @@ class OpenHouse(models.Model):
     title = models.CharField(max_length=255)
     location = models.CharField(max_length=255)
     datetime = models.DateTimeField()
+
+
+class PopularArea(models.Model):
+    image = models.ImageField(upload_to="popular-areas-thumbnails", null=True, blank=True, default="thumbnails/open-house-default.jpg")
+    title = models.CharField(max_length=255)
+

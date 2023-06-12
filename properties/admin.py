@@ -43,6 +43,10 @@ class OpenHouseAdmin(admin.ModelAdmin):
     list_display = ['title', 'location', 'datetime', 'image']
 
     
+@admin.register(PopularArea)
+class PopularAreaAdmin(admin.ModelAdmin):
+    list_display = ['title', 'image']
 
+    
 admin.site.register(APIKey)
 admin.site.register(News)
