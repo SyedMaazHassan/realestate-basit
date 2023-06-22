@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import News, OffPlansProperty, Location, Gallery, Amenity, ContactForm, OpenHouse, PopularArea
+from .models import *
 from profiles.models import SocialProfile, AgentProfile
 from django_quill.forms import QuillFormField
 import xmltodict
@@ -15,7 +15,7 @@ class OpenHouseSerializer(serializers.ModelSerializer):
 class OffPlansPropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = OffPlansProperty
-        fields = ['id', 'thumbnail', 'title', 'subtitle', 'min_price', 'max_price', 'developer', 'project_company_logo', 'handover_date']
+        fields = ['id', 'thumbnail', 'title', 'subtitle', 'category', 'min_price', 'max_price', 'developer', 'project_company_logo', 'handover_date']
 
 
 class AmenitySerializer(serializers.ModelSerializer):
@@ -30,6 +30,12 @@ class GallerySerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
+class PaymentPlanSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PaymentPlan
+        exclude = ('id', 'property',)
+
+
 class LocationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Location
@@ -40,8 +46,9 @@ class OffPlansPropertyDetailSerializer(serializers.ModelSerializer):
     amenities = AmenitySerializer(many=True)
     gallery = GallerySerializer(many=True)
     location = LocationSerializer()
-    # description_html = serializers.SerializerMethodField()
+    payment_plan = PaymentPlanSerializer(many=True)
 
+    # description_html = serializers.SerializerMethodField()
     class Meta:
         model = OffPlansProperty
         fields = '__all__'
@@ -103,4 +110,4 @@ class AgentProfileSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = AgentProfile
-        fields = ['id', 'name', 'designation', 'social_profile']
+        fields = ['id', 'name', 'designation', 'email', 'profile_picture', 'social_profile']

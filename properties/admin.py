@@ -4,16 +4,21 @@ from .models import *
 class GalleryInline(admin.TabularInline):
     model = Gallery
 
+class PaymentPlanInline(admin.TabularInline):
+    model = PaymentPlan
+
 class LocationInline(admin.StackedInline):
     model = Location
 
 class AmenitiesInline(admin.TabularInline):
     model = OffPlansProperty.amenities.through
 
+
 @admin.register(OffPlansProperty)
 class OffPlansPropertyAdmin(admin.ModelAdmin):
     inlines = [
         GalleryInline,
+        PaymentPlanInline,
         LocationInline,
     ]
     list_display = ['title', 'subtitle', 'developer', 'min_price', 'max_price', 'handover_date']
@@ -50,3 +55,4 @@ class PopularAreaAdmin(admin.ModelAdmin):
     
 admin.site.register(APIKey)
 admin.site.register(News)
+admin.site.register(PaymentPlan)

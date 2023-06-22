@@ -1,6 +1,5 @@
 from django.db import models
 from django.utils import timezone
-from profiles.models import Agent
 from django_quill.fields import QuillField
 from rest_framework_api_key.models import AbstractAPIKey
 from phonenumber_field.modelfields import PhoneNumberField
@@ -79,9 +78,19 @@ class Amenity(models.Model):
         return self.name
 
 
+class PaymentPlan(models.Model):
+    payment_type = models.CharField(max_length=25, choices=[('advance', 'Advance'), ('installment', 'Installment')])
+    percent = models.IntegerField(verbose_name='Percent %')
+    property = models.ForeignKey('properties.OffPlansProperty', on_delete=models.CASCADE, related_name="payment_plan", verbose_name='Property')
+
+    def __str__(self):
+        return f'{self.percent}% {self.payment_type}'
+
+
 class OffPlansProperty(models.Model):
     thumbnail = models.ImageField(upload_to="off-plan-thumbnails", null=True, blank=True)
     title = models.CharField(max_length=255, verbose_name='Title')
+    category = models.CharField(max_length=255, verbose_name='Category', null=True, blank=True)
     subtitle = models.CharField(max_length=255, verbose_name='Subtitle')
     description = QuillField(verbose_name='Description')
     min_price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='Minimum Price')

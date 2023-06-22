@@ -12,7 +12,36 @@ from rest_framework.views import APIView
 import requests
 
 
+
+def authenticate():
+    url = "https://api-v2.mycrm.com/token"
+    payload = {
+        "grant_type": "password",
+        "domain": "illusion",
+        "username": "info@trinityhome.ae",
+        "password": "Properties@2024",
+        "scope": "offline"
+    }
+
+    response = requests.post(url, json=payload)
+    if response.status_code == 200:
+        auth_data = response.json()
+        access_token = auth_data["access_token"]
+        refresh_token = auth_data["refresh_token"]
+        return access_token, refresh_token
+    else:
+        raise Exception("Authentication failed")
+
+
+
+
 def index(request):
+
+    # Example usage
+    access_token, refresh_token = authenticate()
+    print("Access Token:", access_token)
+    print("Refresh Token:", refresh_token)
+
     return HttpResponse("<h1>APIs are running</h1>")
 
 
@@ -33,7 +62,7 @@ class OffPlansPropertyDetailAPIView(RetrieveAPIView):
         instance = self.get_object()
         serializer = self.get_serializer(instance)
         data = serializer.data
-        return Response({'status': 'success', 'data': data}, status=status.HTTP_200_OK)
+        return Response(data, status=status.HTTP_200_OK)
 
 
 
