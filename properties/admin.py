@@ -53,6 +53,12 @@ class PopularAreaAdmin(admin.ModelAdmin):
     list_display = ['title', 'image']
 
     
+@admin.register(Booking)
+class BookingAdmin(admin.ModelAdmin):
+    list_display = ['booking_type', 'fromm', 'name', 'email', 'phone', 'phone']
+
+
+admin.site.register(HomePageSites)
 admin.site.register(APIKey)
 admin.site.register(News)
 admin.site.register(PaymentPlan)

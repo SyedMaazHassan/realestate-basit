@@ -80,6 +80,11 @@ class PopularAreaListView(generics.ListAPIView):
     serializer_class = PopularAreaSerializer
 
 
+class HomePageSitesListView(generics.ListAPIView):
+    queryset = HomePageSites.objects.all()
+    serializer_class = HomePageSitesSerializer
+
+
 class AgentProfileListView(generics.ListAPIView):
     queryset = AgentProfile.objects.all()
     serializer_class = AgentProfileSerializer
@@ -103,6 +108,21 @@ class ContactFormCreateView(generics.CreateAPIView):
     def put(self, request, *args, **kwargs):
         raise MethodNotAllowed("PUT")
     
+
+
+class BookingCreateView(generics.CreateAPIView):
+    queryset = Booking.objects.all()
+    serializer_class = BookingSerializer
+    
+    def delete(self, request, *args, **kwargs):
+        raise MethodNotAllowed("DELETE")
+    
+    def get(self, request, *args, **kwargs):
+        raise MethodNotAllowed("GET")
+
+    def put(self, request, *args, **kwargs):
+        raise MethodNotAllowed("PUT")
+
 
 class OpenHouseListView(generics.ListCreateAPIView):
     queryset = OpenHouse.objects.all()

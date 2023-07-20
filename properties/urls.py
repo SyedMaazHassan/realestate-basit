@@ -18,5 +18,10 @@ urlpatterns = [
     path('api/popular-areas', PopularAreaListView.as_view(), name='popular-area-list'),
 
     path('api/agent-profiles', AgentProfileListView.as_view(), name='agent-profile-list'),
-    
+
+    path('api/bookings', BookingCreateView.as_view(), name='bookings'),
+
+    path('api/home-sites', HomePageSitesListView.as_view(), name='home-sites'),
+
+
 ]

@@ -3,6 +3,18 @@ from .models import *
 from profiles.models import SocialProfile, AgentProfile
 from django_quill.forms import QuillFormField
 import xmltodict
+import re
+
+
+def contains_only_phone_number(string):
+    # Define the regular expression pattern for a phone number (only numerical digits, optional '+' sign at the beginning)
+    pattern = r'^\+?\d+$'
+
+    # Use re.match() to check if the entire string matches the pattern
+    if re.match(pattern, string):
+        return True
+    else:
+        return False
 
 
 
@@ -67,6 +79,11 @@ class NewsListSerializer(serializers.ModelSerializer):
         exclude = ('description',)
 
 
+class HomePageSitesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HomePageSites
+        fields = "__all__"
+
 class NewsDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = News
@@ -82,6 +99,13 @@ class ContactFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = ContactForm
         fields = '__all__'
+
+    def validate_phone(self, phone):
+        # Add your phone number validation logic here
+        if not contains_only_phone_number(phone):  # Assuming you have the contains_only_phone_number function from the previous answer
+            raise serializers.ValidationError("Invalid phone number. Phone number must contain only numerical digits.")
+
+        return phone
 
 
 class PopularAreaSerializer(serializers.ModelSerializer):
@@ -111,3 +135,18 @@ class AgentProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = AgentProfile
         fields = ['id', 'name', 'designation', 'email', 'profile_picture', 'social_profile']
+
+
+# serializers.py
+
+class BookingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Booking
+        fields = ('booking_type', 'fromm', 'date', 'time', 'name', 'email', 'phone')
+    
+    def validate_phone(self, phone):
+        # Add your phone number validation logic here
+        if not contains_only_phone_number(phone):  # Assuming you have the contains_only_phone_number function from the previous answer
+            raise serializers.ValidationError("Invalid phone number. Phone number must contain only numerical digits.")
+
+        return phone

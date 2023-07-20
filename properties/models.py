@@ -102,6 +102,9 @@ class OffPlansProperty(models.Model):
     youtube_video_link = models.URLField(verbose_name='YouTube Video Link')
     amenities = models.ManyToManyField('Amenity', verbose_name='Amenities')
     created_at = models.DateTimeField(default=timezone.now)
+    date = models.DateField(null=True, blank=True)
+    property_type = models.CharField(max_length=255, null=True, blank=True)
+
 
     def __str__(self):
         return self.title
@@ -153,8 +156,9 @@ class ContactForm(models.Model):
     form_name = models.CharField(max_length=255)    
     name = models.CharField(max_length = 255)
     email = models.EmailField()
-    phone = PhoneNumberField()
+    phone = models.CharField(max_length=16)
     received_at = models.DateTimeField(default = timezone.now)
+
 
 
 class OpenHouse(models.Model):
@@ -168,3 +172,25 @@ class PopularArea(models.Model):
     image = models.ImageField(upload_to="popular-areas-thumbnails", null=True, blank=True, default="thumbnails/open-house-default.jpg")
     title = models.CharField(max_length=255)
 
+
+
+class HomePageSites(models.Model):
+    image = models.ImageField(upload_to="home-page-sites", null=True, blank=True, default="thumbnails/home-page-site-default.jpg")
+    title = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.title
+
+
+class Booking(models.Model):
+    booking_type = models.CharField(max_length=255)
+    fromm = models.CharField(max_length=100)
+    date = models.DateField()
+    time = models.TimeField()
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    phone = models.CharField(max_length=15)  # Using CharField for phone number as string
+
+
+    def __str__(self):
+        return self.booking_type + ' ' + self.date
