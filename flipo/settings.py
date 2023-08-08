@@ -281,4 +281,20 @@ CORS_ALLOW_HEADERS = [
 ]
 
 
+# settings.py
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': os.path.join(BASE_DIR, 'cache'),  # Relative path to the 'cache' folder in the root folder
+    }
+}
+
+
+CRM_CREDENTIALS = {
+    "grant_type": "password",
+    "domain": "trinity",
+    "username": env('CRM_USERNAME'),
+    "password": env('CRM_PASSWORD'),
+    "scope": "offline"
+}
