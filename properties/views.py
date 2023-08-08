@@ -40,9 +40,9 @@ def authenticate():
 def index(request):
 
     # Example usage
-    access_token, refresh_token = authenticate()
-    print("Access Token:", access_token)
-    print("Refresh Token:", refresh_token)
+    # access_token, refresh_token = authenticate()
+    # print("Access Token:", access_token)
+    # print("Refresh Token:", refresh_token)
 
     return HttpResponse("<h1>APIs are running</h1>")
 
