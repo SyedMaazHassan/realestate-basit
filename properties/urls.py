@@ -4,9 +4,13 @@ from .views import *
 urlpatterns = [
     path('', index, name="index"),
 
-    path('localize-data', FetchPropertyList.as_view(), name="localize-data"),
+    path('api/localize-data', FetchPropertyList.as_view(), name="localize-data"),
+
+    path('api/fetch-properties/<property_id>', GetSingleProperty.as_view(), name="get-single-property"),
 
     path('api/fetch-properties', GetPropertiesFromFile.as_view(), name="get-fetch-properties"),
+
+    path('api/fetch-property/<int:property_id>/', GetSingleProperty.as_view(), name="get-single-property"),
 
     path('api/offplans/', OffPlansPropertyListAPIView.as_view()),
 

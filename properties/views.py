@@ -132,6 +132,31 @@ class OpenHouseListView(generics.ListCreateAPIView):
     serializer_class = OpenHouseSerializer
 
 
+
+class GetSingleProperty(APIView):
+    def get(self, request, property_id, format=None):
+        try:
+            property_type = request.query_params.get("type")
+            if property_type not in ['sale', 'rent']:
+                return Response({"error": "Invalid type"}, status.HTTP_400_BAD_REQUEST)
+            
+            file_name = f"{property_type}.json"
+            file_path = os.path.join(settings.BASE_DIR, "data", file_name)
+            
+            with open(file_path, 'r') as json_file:
+                properties = json.load(json_file)
+                properties = properties['properties']
+                for property in properties:
+                    if property['id'] == property_id:
+                        return Response(property, status=status.HTTP_200_OK)
+
+            return Response({'error': "Not found"}, status=status.HTTP_404_NOT_FOUND)
+        
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+
+
 class GetPropertiesFromFile(APIView):
     def get(self, request, format=None):
         # Authenticate and get the CRM API token
@@ -166,7 +191,8 @@ class FetchPropertyList(APIView):
         'token': 'crm_auth_token',
         'featured': 'featured_properties',
         'sale': 'sale_properties',
-        'rent': 'rent_properties'
+        'rent': 'rent_properties',
+        'all': 'all_properties'
     }
 
 
@@ -193,6 +219,36 @@ class FetchPropertyList(APIView):
                 return auth_token
 
         return None
+
+
+   
+    def get_all_properties(self, auth_token):
+        API_URL = f'{self.CRM_API_URL}/properties'
+        CACHE_KEY = self.CACHE_KEYS['all']
+        all_properties = cache.get(CACHE_KEY)
+        if all_properties:
+            print("all_properties picked from cache")
+            return all_properties
+        print("all_properties from CRM...")
+
+        # Use the token to make a request to the CRM API to fetch data
+        headers = {
+            'Authorization': f'Bearer {auth_token}',
+            'X-MyCRM-Expand-Data': 'user'
+        }
+        response = requests.get(API_URL, headers=headers)
+        if response.status_code == 200:
+            # You can manipulate the data here if needed before returning it in the final response
+            all_properties = response.json()
+
+            cache.set(CACHE_KEY, all_properties, timeout=(60 * 60))
+
+            # Process the data as needed and return it in the response
+            return all_properties
+        else:
+            raise Exception('Failed to fetch data from the CRM API.')
+
+
 
     
     def get_featured_properties(self, auth_token):
@@ -281,6 +337,7 @@ class FetchPropertyList(APIView):
         if not auth_token:
             return Response({'error': 'Failed to authenticate with the CRM API.'}, status=status.HTTP_401_UNAUTHORIZED)
 
+        is_all = request.query_params.get('is_all')
         is_featured = request.query_params.get('is_featured')
         is_sale = request.query_params.get('is_sale')
         is_rent = request.query_params.get('is_rent')
@@ -288,7 +345,11 @@ class FetchPropertyList(APIView):
         properties = None
         file_name = ""
         try:
-            if is_featured or (is_sale is None and is_rent is None and is_featured is None):
+            if is_all or (is_sale is None and is_rent is None and is_featured is None and is_all is None):
+                properties = self.get_all_properties(auth_token)
+                file_name = "all.json"
+
+            if is_featured:
                 properties = self.get_featured_properties(auth_token)
                 file_name = "featured.json"
 
