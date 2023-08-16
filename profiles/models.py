@@ -30,7 +30,7 @@ class TeamMember(Person):
 
 
 class AgentProfile(Person):
-    crm_id = models.IntegerField()
+    crm_id = models.IntegerField(null=True, blank=True)
     name = models.CharField(max_length=255)
     designation = models.CharField(max_length=255)
 

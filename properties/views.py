@@ -14,6 +14,7 @@ from django.core.cache import cache
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 from django.conf import settings
+import os, json
 
 def authenticate():
     url = "https://api-v2.mycrm.com/token"
@@ -131,6 +132,34 @@ class OpenHouseListView(generics.ListCreateAPIView):
     serializer_class = OpenHouseSerializer
 
 
+class GetPropertiesFromFile(APIView):
+    def get(self, request, format=None):
+        # Authenticate and get the CRM API token
+        is_featured = request.query_params.get('is_featured')
+        is_sale = request.query_params.get('is_sale')
+        is_rent = request.query_params.get('is_rent')
+        
+        properties = None
+        file_name = ""
+        try:
+            if is_featured or (is_sale is None and is_rent is None and is_featured is None):
+                file_name = "featured.json"
+
+            if is_sale:
+                file_name = "sale.json"
+
+            if is_rent:
+                file_name = "rent.json"
+
+            file_path = os.path.join(settings.BASE_DIR, "data", file_name)
+            with open(file_path, 'r') as json_file:
+                loaded_data = json.load(json_file)
+            return Response(loaded_data, status=status.HTTP_200_OK)
+        
+        except Exception as e:
+            return Response({'error':str(e)}, status=400)
+
+
 class FetchPropertyList(APIView):
     CRM_API_URL = 'https://api-v2.mycrm.com'
     CACHE_KEYS = {
@@ -160,7 +189,7 @@ class FetchPropertyList(APIView):
             auth_token = response.json().get('access_token')
             if auth_token:
                 # Save the token in the cache with a timeout (set to the token's expiry time)
-                cache.set(self.CACHE_KEYS['token'], auth_token, timeout=(60 * 60))
+                cache.set(self.CACHE_KEYS['token'], auth_token, timeout=(60 * 45))
                 return auth_token
 
         return None
@@ -257,40 +286,25 @@ class FetchPropertyList(APIView):
         is_rent = request.query_params.get('is_rent')
         
         properties = None
+        file_name = ""
         try:
             if is_featured or (is_sale is None and is_rent is None and is_featured is None):
                 properties = self.get_featured_properties(auth_token)
+                file_name = "featured.json"
 
             if is_sale:
                 properties = self.get_sale_properties(auth_token)
+                file_name = "sale.json"
 
             if is_rent:
                 properties = self.get_rent_properties(auth_token)
+                file_name = "rent.json"
 
-            return Response(properties, status=status.HTTP_200_OK)
+            file_path = os.path.join(settings.BASE_DIR, "data", file_name)
+            with open(file_path, 'w') as json_file:
+                json.dump(properties, json_file, indent=4)
+            return Response({"message":f"Data saved in {file_name}"}, status=status.HTTP_200_OK)
         
         except Exception as e:
             return Response({'error':str(e)}, status=400)
 
-        featured_properties = cache.get(self.CACHE_KEYS['featured'])
-        if featured_properties:
-            print("Properties picked from cache")
-            return Response(featured_properties, status=status.HTTP_200_OK)
-        print("Fetching from CRM...")
-
-        # Use the token to make a request to the CRM API to fetch data
-        headers = {
-            'Authorization': f'Bearer {auth_token}',
-            'X-MyCRM-Expand-Data': 'user'
-        }
-        response = requests.get(f'{self.CRM_API_URL}/properties?filters[layout]=-', headers=headers)
-        if response.status_code == 200:
-            # You can manipulate the data here if needed before returning it in the final response
-            featured_properties = response.json()
-
-            cache.set(self.CACHE_KEYS['featured'], featured_properties, timeout=(60 * 60))
-
-            # Process the data as needed and return it in the response
-            return Response(featured_properties, status=status.HTTP_200_OK)
-        else:
-            return Response({'error': 'Failed to fetch data from the CRM API.'}, status=response.status_code)
