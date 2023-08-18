@@ -132,6 +132,48 @@ class OpenHouseListView(generics.ListCreateAPIView):
     serializer_class = OpenHouseSerializer
 
 
+class GetAgents(APIView):
+    def search_property_by_agents(self, user_id):
+        file_path = os.path.join(settings.BASE_DIR, "data", "all.json")
+        with open(file_path, 'r') as json_file:
+            properties = json.load(json_file)
+        
+        searched_properties = []
+        for property in properties['properties']:
+            property_user = property['user']
+            if property_user['id'] == user_id:
+                searched_properties.append(property)
+        return searched_properties
+
+
+    def get(self, request, user_id=None, format=None):
+        try:
+            file_name = "users.json"
+            file_path = os.path.join(settings.BASE_DIR, "data", file_name)
+            
+            users = None
+            with open(file_path, 'r') as json_file:
+                users = json.load(json_file)
+
+            if not user_id:
+                return Response(users, status=status.HTTP_200_OK)
+            
+            for user in users['users']:
+                if user['id'] == user_id:
+                    # fetch properties
+                    output = {
+                        "agent_details": user,
+                        "property_list": self.search_property_by_agents(user_id)
+                    }
+                    return Response(output, status=status.HTTP_200_OK)
+
+            return Response({'error': "Not found"}, status=status.HTTP_404_NOT_FOUND)
+        
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+ 
+
 
 class GetSingleProperty(APIView):
     def get(self, request, property_id, format=None):
@@ -192,7 +234,8 @@ class FetchPropertyList(APIView):
         'featured': 'featured_properties',
         'sale': 'sale_properties',
         'rent': 'rent_properties',
-        'all': 'all_properties'
+        'all': 'all_properties',
+        'user': 'all_users'
     }
 
 
@@ -219,6 +262,33 @@ class FetchPropertyList(APIView):
                 return auth_token
 
         return None
+
+
+    def get_all_users(self, auth_token):
+        API_URL = f'{self.CRM_API_URL}/users'
+        CACHE_KEY = self.CACHE_KEYS['user']
+        all_users = cache.get(CACHE_KEY)
+        if all_users:
+            print("all_users picked from cache")
+            return all_users
+        print("all_users from CRM...")
+
+        # Use the token to make a request to the CRM API to fetch data
+        headers = {
+            'Authorization': f'Bearer {auth_token}'
+        }
+        response = requests.get(API_URL, headers=headers)
+        if response.status_code == 200:
+            # You can manipulate the data here if needed before returning it in the final response
+            all_users = response.json()
+
+            cache.set(CACHE_KEY, all_users, timeout=(60 * 60))
+
+            # Process the data as needed and return it in the response
+            return all_users
+        else:
+            raise Exception('Failed to fetch data from the CRM API.')
+
 
 
    
@@ -341,29 +411,35 @@ class FetchPropertyList(APIView):
         is_featured = request.query_params.get('is_featured')
         is_sale = request.query_params.get('is_sale')
         is_rent = request.query_params.get('is_rent')
+        is_users = request.query_params.get('is_users')
         
-        properties = None
+        data = None
         file_name = ""
         try:
-            if is_all or (is_sale is None and is_rent is None and is_featured is None and is_all is None):
-                properties = self.get_all_properties(auth_token)
+
+            if is_all or (is_sale is None and is_rent is None and is_featured is None and is_all is None and is_users is None):
+                data = self.get_all_properties(auth_token)
                 file_name = "all.json"
 
             if is_featured:
-                properties = self.get_featured_properties(auth_token)
+                data = self.get_featured_properties(auth_token)
                 file_name = "featured.json"
 
             if is_sale:
-                properties = self.get_sale_properties(auth_token)
+                data = self.get_sale_properties(auth_token)
                 file_name = "sale.json"
 
             if is_rent:
-                properties = self.get_rent_properties(auth_token)
+                data = self.get_rent_properties(auth_token)
                 file_name = "rent.json"
+
+            if is_users:
+                data = self.get_all_users(auth_token)
+                file_name = "users.json"
 
             file_path = os.path.join(settings.BASE_DIR, "data", file_name)
             with open(file_path, 'w') as json_file:
-                json.dump(properties, json_file, indent=4)
+                json.dump(data, json_file, indent=4)
             return Response({"message":f"Data saved in {file_name}"}, status=status.HTTP_200_OK)
         
         except Exception as e:

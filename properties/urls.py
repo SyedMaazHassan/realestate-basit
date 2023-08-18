@@ -6,7 +6,11 @@ urlpatterns = [
 
     path('api/localize-data', FetchPropertyList.as_view(), name="localize-data"),
 
-    path('api/fetch-properties/<property_id>', GetSingleProperty.as_view(), name="get-single-property"),
+    # path('api/fetch-agents/<agent_user_id>', GetSingleAgent.as_view(), name="get-single-agent"),
+
+    path('api/fetch-agents/<int:user_id>', GetAgents.as_view(), name="get-single-agent"),
+
+    path('api/fetch-agents', GetAgents.as_view(), name="get-all-agents"),
 
     path('api/fetch-properties', GetPropertiesFromFile.as_view(), name="get-fetch-properties"),
 

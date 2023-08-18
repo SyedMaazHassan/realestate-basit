@@ -1,0 +1,1324 @@
+{
+    "count": 18,
+    "page": 1,
+    "per_page": 100,
+    "users": [
+        {
+            "id": 123468,
+            "public": {
+                "first_name": "Trinity",
+                "last_name": "Homes",
+                "email": "info@trinityhome.ae",
+                "licence": null,
+                "phone": "+97143380534",
+                "photo": null,
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": null
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": null,
+                "linked_in": null,
+                "nationalities": null,
+                "languages": [],
+                "licence_expired_at": null,
+                "whatsapp": "+971552832483",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Trinity",
+                "last_name": "Homes",
+                "email": "info@trinityhome.ae",
+                "mobile": "+971 58 558 8542",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 126837094,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/68e2e549-069d-11ee-8f48-16658300588a.png",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6b0120cf-069d-11ee-8f48-16658300588a.png",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "admin",
+            "is_active": true,
+            "pf_imported_id": "AE-89389",
+            "pf_agent_id": "AE-233115",
+            "created_at": "2023-04-17T15:37:47+04:00",
+            "updated_at": "2023-06-22T15:44:49+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 123885,
+            "public": {
+                "first_name": "Nitin",
+                "last_name": "Tekwani",
+                "email": "nitin@trinityhome.ae",
+                "licence": "32885",
+                "phone": "+971552832483",
+                "photo": {
+                    "id": 153629039,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/12107944-2f8a-11ee-91b5-0e83e0667c5f.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/121b737c-2f8a-11ee-91b5-0e83e0667c5f.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971552832483",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Nitin",
+                "last_name": "Tekwani",
+                "email": "nitin@trinityhome.ae",
+                "mobile": "+971 55 283 2483",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 153629038,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/09f4beb0-2f8a-11ee-8758-923455b6b9d8.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/0a007515-2f8a-11ee-8758-923455b6b9d8.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "32885",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "admin",
+            "is_active": true,
+            "pf_imported_id": "AE-89800",
+            "pf_agent_id": "AE-233184",
+            "created_at": "2023-04-18T11:01:36+04:00",
+            "updated_at": "2023-08-01T10:49:50+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "The photo appears stretched or distorted."
+            }
+        },
+        {
+            "id": 123887,
+            "public": {
+                "first_name": "Kapil",
+                "last_name": "Tekwani",
+                "email": "kapil@trinityhome.ae",
+                "licence": "",
+                "phone": "+971564341234",
+                "photo": null,
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": ""
+                    },
+                    {
+                        "lang": "ar",
+                        "content": ""
+                    }
+                ],
+                "position": "",
+                "linked_in": "",
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": null,
+                "whatsapp": "+971564341234",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Kapil",
+                "last_name": "Tekwani",
+                "email": "kapil@trinityhome.ae",
+                "mobile": "+971 56 434 1234",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": null,
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "admin",
+            "is_active": true,
+            "pf_imported_id": "AE-89802",
+            "pf_agent_id": "AE-233186",
+            "created_at": "2023-04-18T11:02:58+04:00",
+            "updated_at": "2023-07-18T13:32:59+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 123888,
+            "public": {
+                "first_name": "Hatim",
+                "last_name": "Kagdi",
+                "email": "hatim@trinityhome.ae",
+                "licence": "32360",
+                "phone": "+971 55 217 9013",
+                "photo": {
+                    "id": 133616008,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/b5fc863c-1b12-11ee-b93e-b2ee3ad229d6.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/b606c694-1b12-11ee-b93e-b2ee3ad229d6.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "gu",
+                    "hi"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971552179013",
+                "secondary_phone": "+971552179013"
+            },
+            "private": {
+                "first_name": "Hatim",
+                "last_name": "Kagdi",
+                "email": "hatim@trinityhome.ae",
+                "mobile": "+971 55 217 9013",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 133616007,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/b0d3f92f-1b12-11ee-b93e-b2ee3ad229d6.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/b0e2133c-1b12-11ee-b93e-b2ee3ad229d6.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "32360",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "admin",
+            "is_active": true,
+            "pf_imported_id": "AE-89803",
+            "pf_agent_id": "AE-233187",
+            "created_at": "2023-04-18T11:04:19+04:00",
+            "updated_at": "2023-08-04T10:45:26+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "Please include a more detailed biography in paragraph format that highlights the agents real estate experience and what they have to offer to consumers"
+            }
+        },
+        {
+            "id": 123889,
+            "public": {
+                "first_name": "Gourat",
+                "last_name": " Ahmed",
+                "email": "gourat@trinityhome.ae",
+                "licence": "55623",
+                "phone": "+971521309967",
+                "photo": {
+                    "id": 153599369,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/eddd2880-2f82-11ee-b374-22a540749756.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/edeb4852-2f82-11ee-b374-22a540749756.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "Gourat, a dynamic and experienced real estate broker specializing in the vibrant Al Furjan community. With a strong passion for the local real estate market and an impressive track record, Gourat brings over two years of expertise to the table. He has successfully sold a diverse range of properties, including residential homes, apartments, and commercial spaces, catering to the unique needs of his clients. Known for his professionalism, dedication, and excellent negotiation skills, Gourat is committed to delivering outstanding results for both buyers and sellers in Al Furjan. Whether you're searching for your dream home or aiming to sell your property at the best possible price, trust Gourat's comprehensive market knowledge and personalized approach to guide you through every step of the real estate journey. Contact Gourat today and unlock the true potential of your Al Furjan\u00a0property."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "DJ"
+                ],
+                "languages": [
+                    "en",
+                    "ar",
+                    "am"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971521309967",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Gourat",
+                "last_name": "Ahmed",
+                "email": "gourat@trinityhome.ae",
+                "mobile": "+971 52 130 9967",
+                "landline": "+971 4 338 0534",
+                "landline_extension": "00",
+                "lang": "en",
+                "photo": {
+                    "id": 153599368,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/e4f193db-2f82-11ee-8758-923455b6b9d8.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/e4fa91c6-2f82-11ee-8758-923455b6b9d8.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "55623",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89804",
+            "pf_agent_id": "AE-233188",
+            "created_at": "2023-04-18T11:05:54+04:00",
+            "updated_at": "2023-07-31T18:04:26+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "Please include a professional image of the agents upper body taken against a plain white or grey background"
+            }
+        },
+        {
+            "id": 123890,
+            "public": {
+                "first_name": "Krunal",
+                "last_name": "Panchal",
+                "email": "krunal@trinityhome.ae",
+                "licence": "52578",
+                "phone": "+971566776937",
+                "photo": {
+                    "id": 153631584,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/e6289241-2f8a-11ee-88d8-66ed5db4d718.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/e63e0905-2f8a-11ee-88d8-66ed5db4d718.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I aim to promote the highest level of honesty, integrity, and absolute transparency in real estate."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi",
+                    "gu"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971566776937",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Krunal",
+                "last_name": "Panchal",
+                "email": "krunal@trinityhome.ae",
+                "mobile": "+971 56 677 6937",
+                "landline": "+971 4 338 0534",
+                "landline_extension": "00",
+                "lang": "en",
+                "photo": {
+                    "id": 153631583,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/ddf5892a-2f8a-11ee-91b5-0e83e0667c5f.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/ddd4d79a-2f8a-11ee-91b5-0e83e0667c5f.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "52578",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89805",
+            "pf_agent_id": "AE-233189",
+            "created_at": "2023-04-18T11:07:08+04:00",
+            "updated_at": "2023-07-31T14:13:36+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": null
+            }
+        },
+        {
+            "id": 123892,
+            "public": {
+                "first_name": "Poonam",
+                "last_name": "Ghimirea",
+                "email": "poonam@trinityhome.ae",
+                "licence": "40044",
+                "phone": "+971507983059",
+                "photo": {
+                    "id": 132000664,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/9c063fa1-13f8-11ee-b0fb-d68c85aad13e.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/9c123205-13f8-11ee-b0fb-d68c85aad13e.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nI began my career in real estate with a passion for helping people find their dream homes and make sound investment decisions. Armed with a comprehensive knowledge of market trends, property values, and legal intricacies, they offer expert guidance to buyers and sellers alike."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971507983059",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Poonam",
+                "last_name": "Ghimirea",
+                "email": "poonam@trinityhome.ae",
+                "mobile": "+971 50 798 3059",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 117486646,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/fae85d6c-e59c-11ed-a810-ea7169c08814.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/faf30f88-e59c-11ed-a810-ea7169c08814.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "40044",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89801",
+            "pf_agent_id": "AE-233185",
+            "created_at": "2023-04-18T11:08:51+04:00",
+            "updated_at": "2023-07-20T15:17:18+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "Please include a more detailed biography in paragraph format that highlights the agents real estate experience and what they have to offer to consumers"
+            }
+        },
+        {
+            "id": 123893,
+            "public": {
+                "first_name": "Ameer",
+                "last_name": "Jaber",
+                "email": "ameer@trinityhome.ae",
+                "licence": "50997",
+                "phone": "+971508188444",
+                "photo": {
+                    "id": 153630678,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/54da6922-2f8a-11ee-adf8-c2f0389a086c.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/54eddc8c-2f8a-11ee-adf8-c2f0389a086c.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "JO"
+                ],
+                "languages": [
+                    "en",
+                    "ar"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971508188444",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Ameer",
+                "last_name": "Jaber",
+                "email": "ameer@trinityhome.ae",
+                "mobile": "+971 50 818 8444",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 153630677,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/4ccfcb5f-2f8a-11ee-8758-923455b6b9d8.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/4cdd2cd1-2f8a-11ee-8758-923455b6b9d8.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "50997",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89806",
+            "pf_agent_id": "AE-233190",
+            "created_at": "2023-04-18T11:13:36+04:00",
+            "updated_at": "2023-08-01T10:50:30+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "Please include a professional image of the agents upper body taken against a plain white or grey background"
+            }
+        },
+        {
+            "id": 123894,
+            "public": {
+                "first_name": "Nakiya",
+                "last_name": "Kagdi",
+                "email": "nakiya@trinityhome.ae",
+                "licence": "61657",
+                "phone": "+971585273313",
+                "photo": {
+                    "id": 159814033,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/ed2e5499-35d6-11ee-984d-4ebca759e852.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/ed3a0abd-35d6-11ee-984d-4ebca759e852.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a dedicated real estate agent with a passion for helping clients find their dream homes. Whether you are looking to buy, sell, or invest in properties, I am here to guide you through the process and make it as smooth as possible. Let's work together to make your real estate goals a reality!"
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi",
+                    "gu"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971585273313",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Nakiya",
+                "last_name": "Kagdi",
+                "email": "nakiya@trinityhome.ae",
+                "mobile": "+971 58 527 3313",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 159814032,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/e3e73273-35d6-11ee-a404-56ef5ef624a7.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/e3f2c4bf-35d6-11ee-a404-56ef5ef624a7.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "61657",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89807",
+            "pf_agent_id": "AE-233191",
+            "created_at": "2023-04-18T11:15:08+04:00",
+            "updated_at": "2023-08-09T15:23:37+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "We would advise including a more detailed biography comparable with competitive agents and highlighting why both potential tenants and investors should choose to work with Nakiya Kagdi"
+            }
+        },
+        {
+            "id": 123895,
+            "public": {
+                "first_name": "Mouad",
+                "last_name": "Salhi",
+                "email": "mouad@trinityhome.ae",
+                "licence": "50677",
+                "phone": "+971585675801",
+                "photo": {
+                    "id": 153631519,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/c964a03e-2f8a-11ee-beec-ba755ae401f9.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/c9720199-2f8a-11ee-beec-ba755ae401f9.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "Develop and maintain professional relationships with clients, property owners, managers, agents, and legal counsel."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "MA"
+                ],
+                "languages": [
+                    "en",
+                    "ar"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971585675801",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Mouad",
+                "last_name": "Salhi",
+                "email": "mouad@trinityhome.ae",
+                "mobile": "+971 58 567 5801",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 153631518,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/c29e08df-2f8a-11ee-88d8-66ed5db4d718.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/c2ae26e2-2f8a-11ee-88d8-66ed5db4d718.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "50677",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-90000",
+            "pf_agent_id": "AE-233397",
+            "created_at": "2023-04-18T11:16:43+04:00",
+            "updated_at": "2023-07-31T18:04:47+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "Please include a profile image of the agents upper body rather than a close up of the face"
+            }
+        },
+        {
+            "id": 123898,
+            "public": {
+                "first_name": "Reksha",
+                "last_name": "Kuvan Devadasan",
+                "email": "reksha@trinityhome.ae",
+                "licence": "",
+                "phone": "+971585956177",
+                "photo": null,
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": ""
+                    },
+                    {
+                        "lang": "ar",
+                        "content": ""
+                    }
+                ],
+                "position": "",
+                "linked_in": "",
+                "nationalities": null,
+                "languages": [],
+                "licence_expired_at": null,
+                "whatsapp": "+971585956177",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Reksha",
+                "last_name": "Kuvan Devadasan",
+                "email": "reksha@trinityhome.ae",
+                "mobile": "+971 58 595 6177",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": null,
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-90001",
+            "pf_agent_id": "AE-233398",
+            "created_at": "2023-04-18T11:28:42+04:00",
+            "updated_at": "2023-04-25T10:01:35+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 123900,
+            "public": {
+                "first_name": "TK",
+                "last_name": "Eugine",
+                "email": "eugine@trinityhome.ae",
+                "licence": null,
+                "phone": "+971585588542",
+                "photo": {
+                    "id": 117416465,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/ab7ed96d-e4fa-11ed-aae9-f63c264d02ad.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/ab9004f3-e4fa-11ed-aae9-f63c264d02ad.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I aim to promote the highest level of honesty, integrity, and absolute transparency in real estate."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": "https://www.linkedin.com/in/tkeugine/",
+                "nationalities": [
+                    "ZW"
+                ],
+                "languages": [
+                    "en",
+                    "sn"
+                ],
+                "licence_expired_at": null,
+                "whatsapp": "+971585588542",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "TK",
+                "last_name": "Eugine",
+                "email": "eugine@trinityhome.ae",
+                "mobile": "+971 58 558 8542",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 117416361,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/7d55d71f-e4fa-11ed-b2db-0e3b4b09bc78.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/7d66c45c-e4fa-11ed-b2db-0e3b4b09bc78.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89999",
+            "pf_agent_id": "AE-233396",
+            "created_at": "2023-04-18T11:31:47+04:00",
+            "updated_at": "2023-06-23T11:43:06+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 123902,
+            "public": {
+                "first_name": "Mohamed",
+                "last_name": "Taha",
+                "email": "mohamed@trinityhome.ae",
+                "licence": null,
+                "phone": "+971 58 542 2321",
+                "photo": null,
+                "descriptions": [],
+                "position": "agent",
+                "linked_in": null,
+                "nationalities": null,
+                "languages": [
+                    "ar",
+                    "en"
+                ],
+                "licence_expired_at": null,
+                "whatsapp": "+971 58 542 2321",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Mohamed",
+                "last_name": "Taha",
+                "email": "mohamed@trinityhome.ae",
+                "mobile": "+971 58 542 2321",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": null,
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89997",
+            "pf_agent_id": "AE-233394",
+            "created_at": "2023-04-18T11:36:50+04:00",
+            "updated_at": "2023-07-05T15:32:23+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 124125,
+            "public": {
+                "first_name": "Akanksha",
+                "last_name": "Bellaney",
+                "email": "akanksha@trinityhome.ae",
+                "licence": "50010",
+                "phone": "+971544944952",
+                "photo": {
+                    "id": 153595961,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/6c98a750-2f82-11ee-b374-22a540749756.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6ca49d48-2f82-11ee-b374-22a540749756.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "Akanksha is a dynamic and experienced real estate broker specializing in the vibrant Dubai South community. With a strong passion for the local real estate market and an impressive track record, Akanksha brings over 4 years of expertise to the table. She has successfully sold a diverse range of properties, including residential homes, apartments, and commercial spaces, catering to the unique needs of his clients. Known for his professionalism, dedication, and excellent negotiation skills, Akanksha is committed to delivering outstanding results for both buyers and sellers in Dubai South. Whether you're searching for your dream home or aiming to sell your property at the best possible price, trust Akanksha's comprehensive market knowledge and personalized approach to guide you through every step of the real estate journey. Contact Akanksha today and unlock the true potential of your Dubai South\u00a0property."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971544944952",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Akanksha",
+                "last_name": "Bellaney",
+                "email": "akanksha@trinityhome.ae",
+                "mobile": "+971 54 494 4952",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 153595960,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/4c38d321-2f82-11ee-8c96-aa8b3e2cbb4e.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/4c4bd6a5-2f82-11ee-8c96-aa8b3e2cbb4e.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "50010",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89902",
+            "pf_agent_id": "AE-233298",
+            "created_at": "2023-04-24T11:45:47+04:00",
+            "updated_at": "2023-08-04T11:06:48+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": "The photo appears stretched or distorted, also please remove the border in the image."
+            }
+        },
+        {
+            "id": 124151,
+            "public": {
+                "first_name": "Fatima",
+                "last_name": "Khan",
+                "email": "fatima@trinityhome.ae",
+                "licence": null,
+                "phone": "+971585256628",
+                "photo": null,
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "Beyond their expertise in residential real estate, I self-possesses a diverse portfolio that includes commercial properties, investment opportunities, and land development projects. Their versatility and broad range of skills enable them to cater to a wide range of clients, from first-time homebuyers to seasoned investors.\n\nBeyond their professional achievements, I am known for their integrity, professionalism, and unwavering commitment to delivering exceptional service. Their genuine care for their clients\n well-being and satisfaction have earned them a loyal client base and numerous referrals."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": null,
+                "whatsapp": "+971585256628",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Fatima",
+                "last_name": "Khan",
+                "email": "fatima@trinityhome.ae",
+                "mobile": "+971 58 525 6628",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 125649995,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/4e19d777-01e1-11ee-acfa-129294dbc353.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/4e22de50-01e1-11ee-acfa-129294dbc353.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-89920",
+            "pf_agent_id": "AE-233315",
+            "created_at": "2023-04-24T14:09:39+04:00",
+            "updated_at": "2023-07-10T16:51:24+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 131733,
+            "public": {
+                "first_name": "Lavina",
+                "last_name": "Hotwani",
+                "email": "lavina@trinityhome.ae",
+                "licence": "32491",
+                "phone": "+971559326328",
+                "photo": {
+                    "id": 149207136,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/f97eb18c-2ac7-11ee-beec-ba755ae401f9.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/f98afd4e-2ac7-11ee-beec-ba755ae401f9.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "As a dedicated professional, I stay up to date with the latest market trends, emerging technologies, and industry regulations. They leverage their knowledge to provide valuable insights and advice, empowering their clients to make informed decisions.\n\nKnown for their exceptional communication skills and client-centric approach, I have built a solid reputation for providing personalized service tailored to each client's unique needs. They take the time to listen attentively, understand their client's goals, and meticulously guide them through every step of the real estate process."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Senior Investment Manager",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "licence_expired_at": "2024-07-25",
+                "whatsapp": "+971559326328",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Lavina",
+                "last_name": "Hotwani",
+                "email": "lavina@trinityhome.ae",
+                "mobile": "+971 55 932 6328",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 149207135,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/eedc93b9-2ac7-11ee-b784-2e9370703167.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/eee70ee8-2ac7-11ee-b784-2e9370703167.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "32491",
+                "licence_expired_at": "2024-07-25"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-93167",
+            "pf_agent_id": "AE-236877",
+            "created_at": "2023-06-02T12:45:27+04:00",
+            "updated_at": "2023-07-27T16:22:56+04:00",
+            "verification": {
+                "status": "verified",
+                "comment": null
+            }
+        },
+        {
+            "id": 145970,
+            "public": {
+                "first_name": "Nazneen",
+                "last_name": "Sayyed",
+                "email": "leads@trinityhome.ae",
+                "licence": null,
+                "phone": "+971 58 564 5129",
+                "photo": {
+                    "id": 155025926,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/934c9c00-3116-11ee-b5fb-5ef730731f89.jpeg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/93617cd6-3116-11ee-b5fb-5ef730731f89.jpeg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [],
+                "position": "Lead Coordinator",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "ar",
+                    "en",
+                    "hi",
+                    "ur"
+                ],
+                "licence_expired_at": null,
+                "whatsapp": "+971585645129",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Nazneen",
+                "last_name": "Sayyed",
+                "email": "leads@trinityhome.ae",
+                "mobile": "+971 58 564 5129",
+                "landline": null,
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 154975526,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/859d7ce4-3111-11ee-adf8-c2f0389a086c.jpeg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/85b046f6-3111-11ee-adf8-c2f0389a086c.jpeg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": null,
+                "licence_expired_at": null
+            },
+            "role": "admin",
+            "is_active": true,
+            "pf_imported_id": "AE-97548",
+            "pf_agent_id": "AE-242215",
+            "created_at": "2023-08-01T17:56:47+04:00",
+            "updated_at": "2023-08-08T15:09:56+04:00",
+            "verification": {
+                "status": "incomplete",
+                "comment": null
+            }
+        },
+        {
+            "id": 146170,
+            "public": {
+                "first_name": "Richter",
+                "last_name": "Hawes",
+                "email": "richter@trinityhome.ae",
+                "licence": "61470",
+                "phone": "+971585011089",
+                "photo": {
+                    "id": 155246384,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/6d9b3af3-3137-11ee-940c-76486ee22a6a.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6d64b747-3137-11ee-940c-76486ee22a6a.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
+                    },
+                    {
+                        "lang": "ar",
+                        "content": null
+                    }
+                ],
+                "position": "Property Consultant",
+                "linked_in": null,
+                "nationalities": [
+                    "IN"
+                ],
+                "languages": [
+                    "en",
+                    "hi",
+                    "ta"
+                ],
+                "licence_expired_at": "2024-03-02",
+                "whatsapp": "+971553180065",
+                "secondary_phone": null
+            },
+            "private": {
+                "first_name": "Richter",
+                "last_name": "Hawes",
+                "email": "richter@trinityhome.ae",
+                "mobile": "+971 58 501 1089",
+                "landline": "+971 4 338 0534",
+                "landline_extension": null,
+                "lang": "en",
+                "photo": {
+                    "id": 155246383,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/63bfda2e-3137-11ee-beec-ba755ae401f9.jpg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/638742dc-3137-11ee-beec-ba755ae401f9.jpg",
+                        "width": 540,
+                        "height": 360
+                    }
+                },
+                "use_email_signature": false,
+                "licence": "61470",
+                "licence_expired_at": "2024-03-02"
+            },
+            "role": "agent",
+            "is_active": true,
+            "pf_imported_id": "AE-97605",
+            "pf_agent_id": "AE-242277",
+            "created_at": "2023-08-02T13:18:41+04:00",
+            "updated_at": "2023-08-04T11:06:26+04:00",
+            "verification": {
+                "status": "rejected",
+                "comment": "The image is slightly large. Please upload a smaller version of this image to ensure it is displayed correctly on the verified agent page, the shoulder must show."
+            }
+        }
+    ]
+}
