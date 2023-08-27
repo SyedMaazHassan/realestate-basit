@@ -82,7 +82,8 @@ class PaymentPlan(models.Model):
     payment_type = models.CharField(max_length=25, choices=[('advance', 'Advance'), ('installment', 'Installment')])
     percent = models.IntegerField(verbose_name='Percent %')
     property = models.ForeignKey('properties.OffPlansProperty', on_delete=models.CASCADE, related_name="payment_plan", verbose_name='Property')
-
+    installment_date = models.DateField(null=True, blank=True)
+    
     def __str__(self):
         return f'{self.percent}% {self.payment_type}'
 
@@ -164,8 +165,10 @@ class ContactForm(models.Model):
 class OpenHouse(models.Model):
     image = models.ImageField(upload_to="open-houses-thumbnails", null=True, blank=True, default="thumbnails/open-house-default.jpg")
     title = models.CharField(max_length=255)
+    type = models.CharField(max_length=30, null=True, blank=True)
     location = models.CharField(max_length=255)
     datetime = models.DateTimeField()
+
 
 
 class PopularArea(models.Model):

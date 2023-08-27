@@ -45,7 +45,7 @@ class ContactFormAdmin(admin.ModelAdmin):
     
 @admin.register(OpenHouse)
 class OpenHouseAdmin(admin.ModelAdmin):
-    list_display = ['title', 'location', 'datetime', 'image']
+    list_display = ['title', 'type', 'location', 'datetime', 'image']
 
     
 @admin.register(PopularArea)
