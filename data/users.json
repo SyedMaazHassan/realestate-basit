@@ -167,7 +167,7 @@
                 "first_name": "Kapil",
                 "last_name": "Tekwani",
                 "email": "kapil@trinityhome.ae",
-                "licence": null,
+                "licence": "36338",
                 "phone": "+971564341234",
                 "photo": {
                     "id": 174435341,
@@ -185,7 +185,7 @@
                 "descriptions": [
                     {
                         "lang": "en",
-                        "content": null
+                        "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
                     },
                     {
                         "lang": "ar",
@@ -201,7 +201,7 @@
                     "en",
                     "hi"
                 ],
-                "licence_expired_at": null,
+                "licence_expired_at": "2024-03-02",
                 "whatsapp": "+971564341234",
                 "secondary_phone": null
             },
@@ -227,18 +227,18 @@
                     }
                 },
                 "use_email_signature": false,
-                "licence": null,
-                "licence_expired_at": null
+                "licence": "36338",
+                "licence_expired_at": "2024-03-02"
             },
             "role": "admin",
             "is_active": true,
             "pf_imported_id": "AE-89802",
             "pf_agent_id": "AE-233186",
             "created_at": "2023-04-18T11:02:58+04:00",
-            "updated_at": "2023-09-23T14:56:47+04:00",
+            "updated_at": "2023-10-17T11:40:08+04:00",
             "verification": {
-                "status": "incomplete",
-                "comment": null
+                "status": "verified",
+                "comment": ""
             }
         },
         {
@@ -970,14 +970,14 @@
                 "licence": "62954",
                 "phone": "+971585256628",
                 "photo": {
-                    "id": 207080608,
+                    "id": 212019248,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/08a082e9-676b-11ee-ba2d-dab32c2ffe70.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/1767d1f9-6c1b-11ee-be9e-ee3f1ada3384.png",
                         "width": 200,
                         "height": 200
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/08a9efa9-676b-11ee-ba2d-dab32c2ffe70.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/17962ea7-6c1b-11ee-be9e-ee3f1ada3384.png",
                         "width": 540,
                         "height": 360
                     }
@@ -1014,14 +1014,14 @@
                 "landline_extension": null,
                 "lang": "en",
                 "photo": {
-                    "id": 207080606,
+                    "id": 212019247,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/01b8e79c-676b-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/0bd55c86-6c1b-11ee-9691-d60cc4e29a9b.png",
                         "width": 200,
                         "height": 200
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/01c92c13-676b-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/0bf56f9d-6c1b-11ee-9691-d60cc4e29a9b.png",
                         "width": 540,
                         "height": 360
                     }
@@ -1035,10 +1035,10 @@
             "pf_imported_id": "AE-89920",
             "pf_agent_id": "AE-233315",
             "created_at": "2023-04-24T14:09:39+04:00",
-            "updated_at": "2023-10-10T18:00:48+04:00",
+            "updated_at": "2023-10-16T15:57:08+04:00",
             "verification": {
                 "status": "verified",
-                "comment": ""
+                "comment": "Please include a professional-style photo of the agent's upper body taken against a plain white or grey background."
             }
         },
         {
@@ -1128,7 +1128,7 @@
                 "last_name": "Sayyed",
                 "email": "leads@trinityhome.ae",
                 "licence": null,
-                "phone": "+971585645129",
+                "phone": "+971 58 564 5129",
                 "photo": {
                     "id": 174644238,
                     "thumb": {
@@ -1142,24 +1142,13 @@
                         "height": 360
                     }
                 },
-                "descriptions": [
-                    {
-                        "lang": "en",
-                        "content": null
-                    },
-                    {
-                        "lang": "ar",
-                        "content": null
-                    }
-                ],
+                "descriptions": [],
                 "position": "Lead Coordinator",
                 "linked_in": null,
-                "nationalities": [
-                    "IN"
-                ],
+                "nationalities": null,
                 "languages": [
-                    "en",
                     "ar",
+                    "en",
                     "hi",
                     "ur"
                 ],
@@ -1197,7 +1186,7 @@
             "pf_imported_id": "AE-97548",
             "pf_agent_id": "AE-242215",
             "created_at": "2023-08-01T17:56:47+04:00",
-            "updated_at": "2023-08-31T17:38:02+04:00",
+            "updated_at": "2023-10-17T11:40:32+04:00",
             "verification": {
                 "status": "incomplete",
                 "comment": null
