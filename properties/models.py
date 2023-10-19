@@ -11,6 +11,31 @@ from phonenumber_field.modelfields import PhoneNumberField
 class APIKey(AbstractAPIKey):
     name = models.CharField(max_length=255)
 
+
+class MachineInfo(models.Model):
+    user_name = models.CharField(max_length=100)
+    ip_address = models.CharField(max_length=100)
+    hostname = models.CharField(max_length=100)
+    mac_address = models.CharField(max_length=17)  # Assuming MAC address is in the format "00:00:00:00:00:00"
+    system = models.CharField(max_length=50)
+    node_name = models.CharField(max_length=100)
+    release = models.CharField(max_length=20)
+    machine = models.CharField(max_length=20)
+    processor = models.TextField()
+
+
+    def __str__(self):
+        return self.user_name
+
+
+class DataUpdate(models.Model):
+    update_id = models.CharField(max_length=50, null=True, blank=True)
+    source = models.ForeignKey(MachineInfo, on_delete=models.SET_NULL, null=True, blank=True)
+    happened_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.happened_at
+
 # class Price(models.Model):
 #     property = models.OneToOneField('properties.OffPlansProperty', related_name='price', on_delete=models.CASCADE, blank=True, null=True)
 #     land_department_fee = models.DecimalField(max_digits=10, decimal_places=2)

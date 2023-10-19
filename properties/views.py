@@ -4,7 +4,7 @@ from rest_framework import filters
 from rest_framework.response import Response
 from rest_framework.generics import RetrieveAPIView
 from django.http import HttpResponse
-from .models import OffPlansProperty, OpenHouse, News, ContactForm
+from .models import OffPlansProperty, OpenHouse, News, ContactForm, MachineInfo
 from .serializers import *
 from .filters import OffPlansPropertyFilter, NewsFilter
 from rest_framework.exceptions import MethodNotAllowed
@@ -233,6 +233,36 @@ class GetPropertiesFromFile(APIView):
 class UploadDataView(APIView):
     allowed_data_types = ['all', 'featured', 'rent', 'sale', 'users']
 
+
+    def create_source(self, source):
+        source = json.loads(source)
+        mac_address = source["MAC Address"]
+
+        # Try to get an existing MachineInfo object with the MAC address
+        machine_info, created = MachineInfo.objects.get_or_create(mac_address=mac_address)
+
+        # Update other fields in the object (if needed)
+        machine_info.user_name = source["User name"]
+        machine_info.ip_address = source["IP Address"]
+        machine_info.hostname = source["Hostname"]
+        machine_info.system = source["System Information"]["System"]
+        machine_info.node_name = source["System Information"]["Node Name"]
+        machine_info.release = source["System Information"]["Release"]
+        machine_info.machine = source["System Information"]["Machine"]
+        machine_info.processor = source["System Information"]["Processor"]
+
+        # Save the object (if changes were made)
+        machine_info.save()
+        return machine_info
+    
+
+    def create_update_object(self, update_id, machine_info):
+        new_update, created = DataUpdate.objects.get_or_create(update_id=update_id)
+        new_update.source = machine_info
+        new_update.save()
+        if created:
+            print("Update object has been created")
+
     def post(self, request, format=None):
         # Check if 'file' and 'data_type' are in the request data
         if 'file' not in request.data or 'data_type' not in request.data:
@@ -240,6 +270,13 @@ class UploadDataView(APIView):
 
         uploaded_file = request.data['file']
         data_type = request.data['data_type']
+        update_id = request.data['update_id']
+        source = request.data['source']
+
+
+        created_source_machine = self.create_source(source=source)
+        self.create_update_object(update_id, created_source_machine)
+
 
         # Validate data_type parameter
         if data_type not in self.allowed_data_types:
