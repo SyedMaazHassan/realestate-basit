@@ -4,976 +4,6 @@
     "per_page": 100,
     "properties": [
         {
-            "id": 5107313,
-            "import": {
-                "propertyfinder": {
-                    "id": "AE-9885468",
-                    "reference": null
-                }
-            },
-            "reference": "trinity-5107313",
-            "hash": "lpZHHTNNLpZreg348zz0rxDqtAKVVe4eAGnc12XOOW5YbR2EVbQ2leeqkAvHwgFE",
-            "developer": null,
-            "charges": null,
-            "parking": 2,
-            "exclusivity": {
-                "start": null,
-                "end": null
-            },
-            "location": {
-                "id": "are.3.9812",
-                "city": "Dubai",
-                "community": "Mudon",
-                "sub_community": "Arabella Townhouses",
-                "tower": "Arabella Townhouses 1",
-                "latitude": 25.016923,
-                "longitude": 55.271084
-            },
-            "size": 3485,
-            "bedrooms": 3,
-            "bathrooms": 4,
-            "status": "available",
-            "available_from": null,
-            "state": "approved",
-            "view_360": null,
-            "floor_number": null,
-            "unit_number": "2558",
-            "street_number": null,
-            "street_name": null,
-            "furnished": "unfurnished",
-            "type": {
-                "id": 9,
-                "category": "residential",
-                "name": "Townhouse"
-            },
-            "price": {
-                "offering_type": "sale",
-                "on_request": false,
-                "value": 3100000
-            },
-            "languages": [
-                {
-                    "lang": "en",
-                    "title": "Vacant | Spacious 3 Bed | Semi Detached | On Park",
-                    "description": "Trinity Homes are pleased to be offering you this single-storey, urban 3-bedroom, 4-bathroom semi-detached house at Arabella, Mudon.\n\nWarning! There is a strong possibility that reading this will change your life for the better.\n\nThe incredible green lush view takes peoples' breath away.\n\nThere are also quite a lot of selling points that create this perfect home, namely:\n\n*   3 Beds plus Maid Room\n*   4 Baths\n*   A homely 2,700 sq. ft floorplan\n*   3,485 sq. ft land plot\n*   Garage with 2 car parking and Overhead door\n*   On the park and close to all the amenities\n*   Easy access to Umm Suqeim Road and Hessa Street\n*   Friendly Neighborhood\n\n\n\nThis sensational opportunity will be snatched up. Get in touch with me to join us for a viewing, before the market wakes up to it.\n\nSo why wait? Experience serene living at its finest and schedule a viewing today!\nCALL our community expert at +971\u00a0552832483.\n\nTrinity Homes Properties"
-                }
-            ],
-            "user": {
-                "id": 123885,
-                "public": {
-                    "first_name": "Nitin",
-                    "last_name": "Tekwani",
-                    "email": "nitin@trinityhome.ae",
-                    "licence": "32885",
-                    "phone": "+971552832483",
-                    "photo": {
-                        "id": 153629039,
-                        "thumb": {
-                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/12107944-2f8a-11ee-91b5-0e83e0667c5f.jpg",
-                            "width": 200,
-                            "height": 200
-                        },
-                        "full": {
-                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/121b737c-2f8a-11ee-91b5-0e83e0667c5f.jpg",
-                            "width": 540,
-                            "height": 360
-                        }
-                    },
-                    "descriptions": [
-                        {
-                            "lang": "en",
-                            "content": "I am a highly accomplished real estate agent, who has established myself as a trusted professional in the industry. With a wealth of experience and a deep understanding of the local market, they have consistently delivered outstanding results for their clients.\n\nThroughout my career, I have successfully negotiated numerous transactions, demonstrating their proficiency in navigating the complexities of buying or selling properties. Their strategic mindset and attention to detail ensure that their clients receive the best possible outcomes, whether it's securing an optimal sale price or finding the perfect home within their budget."
-                        },
-                        {
-                            "lang": "ar",
-                            "content": null
-                        }
-                    ],
-                    "position": "Managing Partner",
-                    "linked_in": null,
-                    "nationalities": [
-                        "IN"
-                    ],
-                    "languages": [
-                        "en",
-                        "hi"
-                    ],
-                    "licence_expired_at": "2024-03-02",
-                    "whatsapp": "+971552832483",
-                    "secondary_phone": null
-                },
-                "private": {
-                    "first_name": "Nitin",
-                    "last_name": "Tekwani",
-                    "email": "nitin@trinityhome.ae",
-                    "mobile": "+971 55 283 2483",
-                    "landline": "+971 4 338 0534",
-                    "landline_extension": null,
-                    "lang": "en",
-                    "photo": {
-                        "id": 153629038,
-                        "thumb": {
-                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/09f4beb0-2f8a-11ee-8758-923455b6b9d8.jpg",
-                            "width": 200,
-                            "height": 200
-                        },
-                        "full": {
-                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/0a007515-2f8a-11ee-8758-923455b6b9d8.jpg",
-                            "width": 540,
-                            "height": 360
-                        }
-                    },
-                    "use_email_signature": false,
-                    "licence": "32885",
-                    "licence_expired_at": "2024-03-02"
-                },
-                "role": "admin",
-                "is_active": true,
-                "pf_imported_id": "AE-89800",
-                "pf_agent_id": "AE-233184",
-                "created_at": "2023-04-18T11:01:36+04:00",
-                "updated_at": "2023-09-25T15:59:19+04:00",
-                "verification": {
-                    "status": "verified",
-                    "comment": "The photo appears stretched or distorted."
-                }
-            },
-            "landlord": null,
-            "build_year": null,
-            "plot_size": 3485,
-            "plot_number": null,
-            "built_up_area": 2700,
-            "floors": null,
-            "occupancy": null,
-            "financial_status": null,
-            "project_status": "completed",
-            "project_name": null,
-            "renovation": null,
-            "created_at": "2023-06-16T14:25:26+04:00",
-            "updated_at": "2023-08-23T16:45:16+04:00",
-            "created_by": "Trinity Homes",
-            "views": [],
-            "right_move_url": null,
-            "dewa_number": null,
-            "layout_type": "-",
-            "title_deed": null,
-            "freehold": null,
-            "selected_license": "rera_listing",
-            "licenses": {
-                "rera_listing": {
-                    "number": "65278005494",
-                    "issue_date": null,
-                    "expiry_date": null,
-                    "state": "invalid"
-                }
-            },
-            "images": [
-                {
-                    "id": 102000291,
-                    "order": 1,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/5b980160-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/5bbc5801-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/5adff2a6-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/5a9fd3dc-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000292,
-                    "order": 2,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/5c83551b-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/5b53d769-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/5be3adf4-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/5ba1ec3b-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000297,
-                    "order": 3,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6624fcc7-0ccd-11ee-ad89-768bf1950bda.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/664c440e-0ccd-11ee-ad89-768bf1950bda.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/657c6de6-0ccd-11ee-ad89-768bf1950bda.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/65317678-0ccd-11ee-ad89-768bf1950bda.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000293,
-                    "order": 4,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/5dcc4969-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/5dfabb3b-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/5e88488c-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/5e4198df-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000294,
-                    "order": 5,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6176869e-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/619dbe69-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/60cdd6fb-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6088ebf1-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000295,
-                    "order": 6,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/644796c7-0ccd-11ee-b1e3-f29a27407ea3.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/62de534b-0ccd-11ee-b1e3-f29a27407ea3.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/638675cd-0ccd-11ee-b1e3-f29a27407ea3.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6337f31e-0ccd-11ee-b1e3-f29a27407ea3.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000302,
-                    "order": 7,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/746fdbc0-0ccd-11ee-9b84-628592fc3f31.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/74994b3b-0ccd-11ee-9b84-628592fc3f31.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/751718dd-0ccd-11ee-9b84-628592fc3f31.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/74de2593-0ccd-11ee-9b84-628592fc3f31.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000296,
-                    "order": 8,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/64ff4ac2-0ccd-11ee-becf-ca9e26d0fb79.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/65202e90-0ccd-11ee-becf-ca9e26d0fb79.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/645327ed-0ccd-11ee-becf-ca9e26d0fb79.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6415082a-0ccd-11ee-becf-ca9e26d0fb79.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000298,
-                    "order": 9,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6713b14c-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/672df2a5-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/668fc684-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6656ab53-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000299,
-                    "order": 10,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6a017a92-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/6a268b8a-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/696c3e2a-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6930b754-0ccd-11ee-a596-be2049cde9d9.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000301,
-                    "order": 11,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6c18d895-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/6c35047f-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/6b813cd5-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6c71e78b-0ccd-11ee-9dc3-2a69c4545e0e.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000300,
-                    "order": 12,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/6987ef1a-0ccd-11ee-bc2a-1aeca7857214.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/69b1dc06-0ccd-11ee-bc2a-1aeca7857214.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/6a486a60-0ccd-11ee-bc2a-1aeca7857214.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/6a104957-0ccd-11ee-bc2a-1aeca7857214.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000303,
-                    "order": 13,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/76c5a35a-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/76f3e48d-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/779b23cb-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/774d2e2e-0ccd-11ee-a1bc-16e4f5a08ef4.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                {
-                    "id": 102000354,
-                    "order": 14,
-                    "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/bbb4dc64-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 80,
-                        "height": 80
-                    },
-                    "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/bbdb5339-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 540,
-                        "height": 540
-                    },
-                    "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/bb235b05-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 0,
-                        "height": 0
-                    },
-                    "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/bae2f57d-0ccd-11ee-85de-feb86e5c8b63.jpg",
-                        "width": 0,
-                        "height": 0
-                    }
-                }
-            ],
-            "notes": [],
-            "documents": [
-                {
-                    "id": 1710250,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": null,
-                    "title": "CONTRACT A.pdf",
-                    "file": {
-                        "id": 128566407,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8f3e7605-a7d2-402e-9031-e0736e4821dd.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=273579c926ad08689828761375a50c0704b9f8619bd1518505dc1745911ee9fa",
-                        "created_at": "2023-06-16T14:35:23+04:00"
-                    },
-                    "created_at": "2023-06-16T14:35:23+04:00",
-                    "updated_at": "2023-06-16T14:35:23+04:00",
-                    "tag": "Form A",
-                    "is_submitted": false
-                },
-                {
-                    "id": 1710748,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": null,
-                    "title": "Title Deed.pdf",
-                    "file": {
-                        "id": 128661991,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/0b4a5e89-c241-4ce8-a514-4363d9bc94a7.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=fed941204ef06afa1e1d64111c3a66c1fe9538cb038fbd31c62f5bc07aab18e4",
-                        "created_at": "2023-06-16T15:35:15+04:00"
-                    },
-                    "created_at": "2023-06-16T15:35:15+04:00",
-                    "updated_at": "2023-06-16T15:35:15+04:00",
-                    "tag": "Title Deed",
-                    "is_submitted": false
-                },
-                {
-                    "id": 1710752,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": null,
-                    "title": "EID manish.pdf",
-                    "file": {
-                        "id": 128663393,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/b37bd662-d0ac-4833-bb12-c79f1b30c70f.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=228edebb37749607af043482b237bf4fa60477f4b906c03408b98f8460830613",
-                        "created_at": "2023-06-16T15:35:51+04:00"
-                    },
-                    "created_at": "2023-06-16T15:35:51+04:00",
-                    "updated_at": "2023-06-16T15:35:51+04:00",
-                    "tag": null,
-                    "is_submitted": false
-                },
-                {
-                    "id": 1712229,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": {
-                        "id": 123468,
-                        "public": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "licence": null,
-                            "phone": "+971552832483",
-                            "photo": {
-                                "id": 184896365,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/52018b4d-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/5213f8d4-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "descriptions": [
-                                {
-                                    "lang": "en",
-                                    "content": null
-                                },
-                                {
-                                    "lang": "ar",
-                                    "content": null
-                                }
-                            ],
-                            "position": "Admin",
-                            "linked_in": null,
-                            "nationalities": null,
-                            "languages": [
-                                "en",
-                                "hi"
-                            ],
-                            "licence_expired_at": null,
-                            "whatsapp": "+971552832483",
-                            "secondary_phone": "+97143380534"
-                        },
-                        "private": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "mobile": "+971 55 283 2483",
-                            "landline": "+971 4 338 0534",
-                            "landline_extension": null,
-                            "lang": "en",
-                            "photo": {
-                                "id": 126837094,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/68e2e549-069d-11ee-8f48-16658300588a.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6b0120cf-069d-11ee-8f48-16658300588a.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "use_email_signature": false,
-                            "licence": null,
-                            "licence_expired_at": null
-                        },
-                        "role": "admin",
-                        "is_active": true,
-                        "pf_imported_id": "AE-89389",
-                        "pf_agent_id": "AE-233115",
-                        "created_at": "2023-04-17T15:37:47+04:00",
-                        "updated_at": "2023-09-25T15:37:44+04:00",
-                        "verification": {
-                            "status": "rejected",
-                            "comment": "Verification is only required for agents. Please do not submit any admin or generic company profiles."
-                        }
-                    },
-                    "title": "2995613d-1591-4a31-a14d-c7ac262b0c05.pdf",
-                    "file": {
-                        "id": 128901527,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/2995613d-1591-4a31-a14d-c7ac262b0c05.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=d63be36cb68991aba2f14835fc2575aff7e5539cffd8830e7de44f88744287ea",
-                        "created_at": "2023-06-17T09:19:35+04:00"
-                    },
-                    "created_at": "2023-06-17T09:19:35+04:00",
-                    "updated_at": "2023-06-17T09:19:35+04:00",
-                    "tag": "Form A",
-                    "is_submitted": false
-                },
-                {
-                    "id": 1712230,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": {
-                        "id": 123468,
-                        "public": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "licence": null,
-                            "phone": "+971552832483",
-                            "photo": {
-                                "id": 184896365,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/52018b4d-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/5213f8d4-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "descriptions": [
-                                {
-                                    "lang": "en",
-                                    "content": null
-                                },
-                                {
-                                    "lang": "ar",
-                                    "content": null
-                                }
-                            ],
-                            "position": "Admin",
-                            "linked_in": null,
-                            "nationalities": null,
-                            "languages": [
-                                "en",
-                                "hi"
-                            ],
-                            "licence_expired_at": null,
-                            "whatsapp": "+971552832483",
-                            "secondary_phone": "+97143380534"
-                        },
-                        "private": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "mobile": "+971 55 283 2483",
-                            "landline": "+971 4 338 0534",
-                            "landline_extension": null,
-                            "lang": "en",
-                            "photo": {
-                                "id": 126837094,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/68e2e549-069d-11ee-8f48-16658300588a.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6b0120cf-069d-11ee-8f48-16658300588a.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "use_email_signature": false,
-                            "licence": null,
-                            "licence_expired_at": null
-                        },
-                        "role": "admin",
-                        "is_active": true,
-                        "pf_imported_id": "AE-89389",
-                        "pf_agent_id": "AE-233115",
-                        "created_at": "2023-04-17T15:37:47+04:00",
-                        "updated_at": "2023-09-25T15:37:44+04:00",
-                        "verification": {
-                            "status": "rejected",
-                            "comment": "Verification is only required for agents. Please do not submit any admin or generic company profiles."
-                        }
-                    },
-                    "title": "0ddb7004-0ea0-40e6-a451-f21df0f50c17.pdf",
-                    "file": {
-                        "id": 128901528,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/0ddb7004-0ea0-40e6-a451-f21df0f50c17.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=5052da4e3517463d27258b1c87f46807ea97ecfe452fe37e4d960532e3276433",
-                        "created_at": "2023-06-17T09:19:35+04:00"
-                    },
-                    "created_at": "2023-06-17T09:19:35+04:00",
-                    "updated_at": "2023-06-17T09:19:35+04:00",
-                    "tag": "Title Deed",
-                    "is_submitted": false
-                },
-                {
-                    "id": 1712231,
-                    "property": {
-                        "id": 5107313
-                    },
-                    "author": {
-                        "id": 123468,
-                        "public": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "licence": null,
-                            "phone": "+971552832483",
-                            "photo": {
-                                "id": 184896365,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/52018b4d-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/5213f8d4-522b-11ee-a709-8eb76e7762f8.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "descriptions": [
-                                {
-                                    "lang": "en",
-                                    "content": null
-                                },
-                                {
-                                    "lang": "ar",
-                                    "content": null
-                                }
-                            ],
-                            "position": "Admin",
-                            "linked_in": null,
-                            "nationalities": null,
-                            "languages": [
-                                "en",
-                                "hi"
-                            ],
-                            "licence_expired_at": null,
-                            "whatsapp": "+971552832483",
-                            "secondary_phone": "+97143380534"
-                        },
-                        "private": {
-                            "first_name": "Trinity",
-                            "last_name": "Homes",
-                            "email": "info@trinityhome.ae",
-                            "mobile": "+971 55 283 2483",
-                            "landline": "+971 4 338 0534",
-                            "landline_extension": null,
-                            "lang": "en",
-                            "photo": {
-                                "id": 126837094,
-                                "thumb": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/68e2e549-069d-11ee-8f48-16658300588a.png",
-                                    "width": 200,
-                                    "height": 200
-                                },
-                                "full": {
-                                    "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/6b0120cf-069d-11ee-8f48-16658300588a.png",
-                                    "width": 540,
-                                    "height": 360
-                                }
-                            },
-                            "use_email_signature": false,
-                            "licence": null,
-                            "licence_expired_at": null
-                        },
-                        "role": "admin",
-                        "is_active": true,
-                        "pf_imported_id": "AE-89389",
-                        "pf_agent_id": "AE-233115",
-                        "created_at": "2023-04-17T15:37:47+04:00",
-                        "updated_at": "2023-09-25T15:37:44+04:00",
-                        "verification": {
-                            "status": "rejected",
-                            "comment": "Verification is only required for agents. Please do not submit any admin or generic company profiles."
-                        }
-                    },
-                    "title": "47504f1c-c67f-472e-b618-fef08a7d79b8.pdf",
-                    "file": {
-                        "id": 128901529,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/47504f1c-c67f-472e-b618-fef08a7d79b8.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=9c9b35fd95a6419c19c0d9e7e8860f78f228d20cbfa78860fab291addbd80b99",
-                        "created_at": "2023-06-17T09:19:35+04:00"
-                    },
-                    "created_at": "2023-06-17T09:19:35+04:00",
-                    "updated_at": "2023-06-17T09:19:35+04:00",
-                    "tag": "Passport",
-                    "is_submitted": false
-                }
-            ],
-            "floor_plans": [],
-            "fields": [
-                {
-                    "id": 991,
-                    "resource": "property",
-                    "type": "url",
-                    "name": "video",
-                    "description": "video link",
-                    "mandatory": false,
-                    "restricted": false,
-                    "core": true,
-                    "created_at": "2022-06-03T10:59:19+04:00",
-                    "updated_at": "2022-06-03T10:59:19+04:00",
-                    "value": ""
-                }
-            ],
-            "amenities": [
-                {
-                    "id": 1,
-                    "name": "Balcony"
-                },
-                {
-                    "id": 3,
-                    "name": "BBQ area"
-                },
-                {
-                    "id": 5,
-                    "name": "Built in wardrobes"
-                },
-                {
-                    "id": 7,
-                    "name": "Central air conditioning"
-                },
-                {
-                    "id": 8,
-                    "name": "Covered parking"
-                },
-                {
-                    "id": 15,
-                    "name": "Kitchen Appliances"
-                },
-                {
-                    "id": 16,
-                    "name": "Maids Room"
-                },
-                {
-                    "id": 22,
-                    "name": "Pets allowed"
-                },
-                {
-                    "id": 23,
-                    "name": "Private garage"
-                },
-                {
-                    "id": 24,
-                    "name": "Private Garden"
-                },
-                {
-                    "id": 28,
-                    "name": "Shared swimming pool"
-                },
-                {
-                    "id": 33,
-                    "name": "Garden view"
-                },
-                {
-                    "id": 35,
-                    "name": "Security"
-                },
-                {
-                    "id": 59,
-                    "name": "Near school"
-                },
-                {
-                    "id": 63,
-                    "name": "Near supermarket"
-                },
-                {
-                    "id": 69,
-                    "name": "Public parks"
-                },
-                {
-                    "id": 70,
-                    "name": "Near restaurants"
-                },
-                {
-                    "id": 75,
-                    "name": "Shared Gym"
-                },
-                {
-                    "id": 77,
-                    "name": "Walk-in Closet"
-                },
-                {
-                    "id": 91,
-                    "name": "Children's Play Area"
-                },
-                {
-                    "id": 93,
-                    "name": "Children's Pool"
-                },
-                {
-                    "id": 94,
-                    "name": "Vastu-compliant"
-                }
-            ],
-            "publication": {
-                "propertyfinder": {
-                    "enabled": false,
-                    "first_generated_at": "2023-06-16T14:35:37+04:00",
-                    "last_generated_at": null,
-                    "first_fetched_at": "2023-06-20T00:40:52+04:00",
-                    "last_fetched_at": "2023-09-04T12:36:28+04:00",
-                    "status": 0
-                }
-            },
-            "duplicated_list": [],
-            "acl_rule": "full",
-            "marked_as_seen": true,
-            "listing_level": "standard",
-            "listing_level_date": "2023-09-20",
-            "listing_expiry_date": null,
-            "listing_auto_renew": 0,
-            "listing_status": "offline",
-            "verifications": [],
-            "is_cts_available": false,
-            "is_cts_prioritized": false,
-            "job_token": null,
-            "metadata": {
-                "leads_count": 1
-            }
-        },
-        {
             "id": 5145309,
             "import": {
                 "propertyfinder": {
@@ -1517,7 +547,7 @@
                     "title": "First Floor Plan.jpg",
                     "file": {
                         "id": 130679254,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8796efa0-761a-4aa8-8c49-e5d0b93f9202.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=92cc51d0cc8fb6cb8a51342a3c0e98f85e03b02139ea62522f220c8eea98895c",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8796efa0-761a-4aa8-8c49-e5d0b93f9202.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=2f9057c0aaf0bf2c6a8a215c88da842b004259924dff2a8116dbcd25f5072c49",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -1536,7 +566,7 @@
                     "title": "Ground Floor Plan.jpg",
                     "file": {
                         "id": 130679255,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/e023b634-da9f-4299-8eda-794fb4f7eba7.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=226b2fa59a016de134305c9468b61fcf4cd788260f8dba8e87ecb1cc31354817",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/e023b634-da9f-4299-8eda-794fb4f7eba7.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=8fa8e6618befed4c91a30a65703e8a15a746ae5b13eb943cdb374a2533358baa",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -1555,7 +585,7 @@
                     "title": "Emirates ID Back.jpg",
                     "file": {
                         "id": 130679256,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/9a3b19d5-0621-4bfc-bad0-03698e13758a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=222a0ecc84e964f08ec3a093001a7e168a7da05aafb20b0265bbc432989755cd",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/9a3b19d5-0621-4bfc-bad0-03698e13758a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=e0e7bf1510ece9a418188d8786adeb18def5d04845489ee4d957f1f33351d3c1",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -1572,7 +602,7 @@
                     "title": "Emirates ID.jpg",
                     "file": {
                         "id": 130679257,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c60dc443-2192-416e-8119-64df60c9823a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=7cf7fa3965196b4a75b22a54840c071ca48623c62c914e6dfe380aa77f7f3e0e",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c60dc443-2192-416e-8119-64df60c9823a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=18d5fd2342ae20aed671b6de6d539a32c06b57767cbcf7cc921f81feeee56518",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -1589,7 +619,7 @@
                     "title": "Title Deed.jpg",
                     "file": {
                         "id": 130679258,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/530f8b75-f13a-42da-8240-b036fb737b55.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=33f5b2e9ffb40bc3568f34eca8f5ffbee3fd1817cdefc922f2429ac65dc4d305",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/530f8b75-f13a-42da-8240-b036fb737b55.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=2843389067be567fc2b2c86100b79204c2f5152ab722f14d27744d14f3435282",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -1606,7 +636,7 @@
                     "title": "Rental Listing Form (2).pdf",
                     "file": {
                         "id": 196319541,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c431de68-04a7-429e-80b2-c0217b61cdba.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231017%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231017T085021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=5e920e5ae2c2c2e894640d581339d3b47b054b0e4b8e20db21d32ff285d41534",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c431de68-04a7-429e-80b2-c0217b61cdba.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=358861da32fc9843dd6bd6701bdcd67b0d7f1f674eda08bf8f779922a64b04cf",
                         "created_at": "2023-09-26T14:49:11+04:00"
                     },
                     "created_at": "2023-09-26T14:49:11+04:00",
@@ -1837,7 +867,7 @@
             },
             "duplicated_list": [],
             "acl_rule": "full",
-            "marked_as_seen": false,
+            "marked_as_seen": true,
             "listing_level": "standard",
             "listing_level_date": "2023-10-15",
             "listing_expiry_date": "2023-11-15T08:55:08Z",
@@ -1855,6 +885,702 @@
             "job_token": null,
             "metadata": {
                 "leads_count": 1
+            }
+        },
+        {
+            "id": 6356761,
+            "import": [],
+            "reference": "trinity-6356761",
+            "hash": "XJk3jsqC5EK8emKmqizkW72EsPw8qEwL5eOHAZdgbmqqaxaEywMagQ3lP5Su3fHa",
+            "developer": null,
+            "charges": null,
+            "parking": 2,
+            "exclusivity": {
+                "start": null,
+                "end": null
+            },
+            "location": {
+                "id": "are.2.8890",
+                "city": "Dubai",
+                "community": "Dubai South (Dubai World Central)",
+                "sub_community": "The Pulse",
+                "tower": null,
+                "latitude": 24.93440237658,
+                "longitude": 55.22373229222
+            },
+            "size": 2680,
+            "bedrooms": 4,
+            "bathrooms": 5,
+            "status": "available",
+            "available_from": null,
+            "state": "draft",
+            "view_360": null,
+            "floor_number": null,
+            "unit_number": "205",
+            "street_number": null,
+            "street_name": null,
+            "furnished": "unfurnished",
+            "type": {
+                "id": 9,
+                "category": "residential",
+                "name": "Townhouse"
+            },
+            "price": {
+                "offering_type": "sale",
+                "on_request": false,
+                "value": 3200000
+            },
+            "languages": [
+                {
+                    "lang": "en",
+                    "title": "Genuine Seller II Large Layout II Ready To Move In",
+                    "description": "Trinity Homes Properties L.L.C is proud to present this gorgeous 4 Bedroom Double-Storey Semi-detached townhouse in one of the sought-after communities in Dubai. \n\nFirstly, its priced at only AED 3,200,000 for all the options it offers. If that's you, hold on, you're about to be charmed.\n\nSecondly, there is the large-scale space, around 2,680 sq.ft and filled with calming aura.\n\nThere's also the:\n\n*   Payment plan is available for cash buyers\n*   Open for Finance/ Mortgage buyers (Payment Plan Not Applicable)\n*   Cultivated finishes and just-handed-over condition\n*   4 bedrooms including 4 ensuites\n*   In fashion living room, perfect for spending time with family\n*   2 private garage spaces\n*   And a toddler-friendly children's pool, which means dips on hot days.\n\nLastly, there is the closed-style kitchen with its custom-fitted appliances, which most current developments currently are not providing.\n\n\nPick up the phone and call me for more information."
+                }
+            ],
+            "user": {
+                "id": 123898,
+                "public": {
+                    "first_name": "Reksha",
+                    "last_name": "Kuvan Devadasan",
+                    "email": "reksha@trinityhome.ae",
+                    "licence": "52579",
+                    "phone": "+971585956177",
+                    "photo": {
+                        "id": 174416801,
+                        "thumb": {
+                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/efbb806b-4667-11ee-93ff-d225474af399.jpg",
+                            "width": 200,
+                            "height": 200
+                        },
+                        "full": {
+                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/efdeac74-4667-11ee-93ff-d225474af399.jpg",
+                            "width": 540,
+                            "height": 360
+                        }
+                    },
+                    "descriptions": [
+                        {
+                            "lang": "en",
+                            "content": "I aim to promote the highest level of honesty, integrity, and absolute transparency in real estate.\n\nI am a dedicated real estate agent with a passion for helping clients find their dream homes. Whether you are looking to buy, sell, or invest in properties, I am here to guide you through the process and make it as smooth as possible. Let's work together to make your real estate goals a reality!"
+                        },
+                        {
+                            "lang": "ar",
+                            "content": null
+                        }
+                    ],
+                    "position": "Senior Property Consultant",
+                    "linked_in": null,
+                    "nationalities": [
+                        "IN"
+                    ],
+                    "languages": [
+                        "en",
+                        "hi",
+                        "ml"
+                    ],
+                    "licence_expired_at": "2024-03-02",
+                    "whatsapp": "+971585956177",
+                    "secondary_phone": null
+                },
+                "private": {
+                    "first_name": "Reksha",
+                    "last_name": "Kuvan Devadasan",
+                    "email": "reksha@trinityhome.ae",
+                    "mobile": "+971 58 595 6177",
+                    "landline": "+971 4 338 0534",
+                    "landline_extension": null,
+                    "lang": "en",
+                    "photo": {
+                        "id": 174416800,
+                        "thumb": {
+                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/thumb/8299/e327ea53-4667-11ee-93ff-d225474af399.jpg",
+                            "width": 200,
+                            "height": 200
+                        },
+                        "full": {
+                            "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/user/full/8299/e2cb586b-4667-11ee-93ff-d225474af399.jpg",
+                            "width": 540,
+                            "height": 360
+                        }
+                    },
+                    "use_email_signature": false,
+                    "licence": "52579",
+                    "licence_expired_at": "2024-03-02"
+                },
+                "role": "agent",
+                "is_active": true,
+                "pf_imported_id": "AE-90001",
+                "pf_agent_id": "AE-233398",
+                "created_at": "2023-04-18T11:28:42+04:00",
+                "updated_at": "2023-09-25T16:21:44+04:00",
+                "verification": {
+                    "status": "verified",
+                    "comment": null
+                }
+            },
+            "landlord": null,
+            "build_year": null,
+            "plot_size": 2368,
+            "plot_number": null,
+            "built_up_area": 2680,
+            "floors": null,
+            "occupancy": null,
+            "financial_status": null,
+            "project_status": "completed",
+            "project_name": null,
+            "renovation": null,
+            "created_at": "2023-10-17T17:59:25+04:00",
+            "updated_at": "2023-10-17T17:59:25+04:00",
+            "created_by": "Reksha Kuvan Devadasan",
+            "views": [],
+            "right_move_url": null,
+            "dewa_number": null,
+            "layout_type": "Semi-Detached",
+            "title_deed": null,
+            "freehold": null,
+            "selected_license": "rera_listing",
+            "images": [
+                {
+                    "id": 178309646,
+                    "order": 1,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f927d0fe-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/f9561376-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f91a1f03-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f8d4aa6d-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309647,
+                    "order": 2,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/ff600736-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/ff849c7b-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/ff4ff0ed-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/ff933ac9-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309648,
+                    "order": 3,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fe9e608b-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fecbc498-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fe903000-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fe638d4e-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309649,
+                    "order": 4,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/ff5d7c51-6ceb-11ee-9801-86313c794647.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/ff8e0726-6ceb-11ee-9801-86313c794647.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/ff5133cd-6ceb-11ee-9801-86313c794647.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/ff1b575d-6ceb-11ee-9801-86313c794647.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309650,
+                    "order": 5,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f9468270-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/f9741dd6-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f93a7b31-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f906301b-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309651,
+                    "order": 6,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fa408cbe-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fa6b10e8-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fa356531-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f9ff00fa-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309652,
+                    "order": 7,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fa767c41-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/faa38612-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fae9816e-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fab108be-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309653,
+                    "order": 8,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f9e08c58-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fa036119-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f9d70ff7-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fa0da4d1-6ceb-11ee-b754-aae414a0e842.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309654,
+                    "order": 9,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fb20cb8a-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fb4d2f9d-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fb15e4e9-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fb592604-6ceb-11ee-985b-9a65e35c709c.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309655,
+                    "order": 10,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fb9bf88b-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fbcbe82c-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fb8e7d2c-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fb5538d7-6ceb-11ee-a55b-aee3eb712182.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309656,
+                    "order": 11,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fbb5262d-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fbe230b6-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fc18dc36-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fbebcb06-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309657,
+                    "order": 12,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fcaf0d6c-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fcda59c0-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fca621f9-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fc7761e2-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309658,
+                    "order": 13,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fd7ba259-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fda2df99-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fd708728-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fd3baa33-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309659,
+                    "order": 14,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fde3dc4f-6ceb-11ee-8912-368d2ce7772e.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fe081c86-6ceb-11ee-8912-368d2ce7772e.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fdd969d3-6ceb-11ee-8912-368d2ce7772e.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fdaf9568-6ceb-11ee-8912-368d2ce7772e.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 178309660,
+                    "order": 15,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fe773df3-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fea669da-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fe6af309-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fe38c862-6ceb-11ee-9873-3a13aa95474e.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                }
+            ],
+            "notes": [],
+            "documents": [
+                {
+                    "id": 2179392,
+                    "property": {
+                        "id": 6356761
+                    },
+                    "author": null,
+                    "title": "ReportBook Pre Title Deed for 205.pdf",
+                    "file": {
+                        "id": 213249679,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c9f2bb95-f039-4927-88b3-effa9272f522.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=685fa9318fda0509fe9e731c0a0cc5e6b521a623c0459c7b3a1bb5b4f10dacea",
+                        "created_at": "2023-10-17T17:59:25+04:00"
+                    },
+                    "created_at": "2023-10-17T17:59:25+04:00",
+                    "updated_at": "2023-10-17T17:59:25+04:00",
+                    "tag": "Oqood",
+                    "is_submitted": false
+                },
+                {
+                    "id": 2179393,
+                    "property": {
+                        "id": 6356761
+                    },
+                    "author": null,
+                    "title": "Amer Passport .pdf",
+                    "file": {
+                        "id": 213249680,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/db765076-e131-48c5-a293-3efe2df7fcc1.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=09b9246bdc23cd95ec756dd4e5906a7218e6e67e7447836cc20191c00e3b2c70",
+                        "created_at": "2023-10-17T17:59:25+04:00"
+                    },
+                    "created_at": "2023-10-17T17:59:25+04:00",
+                    "updated_at": "2023-10-17T17:59:25+04:00",
+                    "tag": "Passport",
+                    "is_submitted": false
+                },
+                {
+                    "id": 2179394,
+                    "property": {
+                        "id": 6356761
+                    },
+                    "author": null,
+                    "title": "CA202310173902_1017T171504_a7d4750a-4d47-4c1f-8703-48f5f18996bd.pdf",
+                    "file": {
+                        "id": 213249681,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/eabb185b-3a1f-4d16-9064-fc959461c26b.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T104427Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=21ea51af2a9680c2f107e2f4b1f307fa0f7be88dcd329c384eb74fe2c4ae6a47",
+                        "created_at": "2023-10-17T17:59:25+04:00"
+                    },
+                    "created_at": "2023-10-17T17:59:25+04:00",
+                    "updated_at": "2023-10-17T17:59:25+04:00",
+                    "tag": "Form A",
+                    "is_submitted": false
+                }
+            ],
+            "floor_plans": [],
+            "fields": [
+                {
+                    "id": 991,
+                    "resource": "property",
+                    "type": "url",
+                    "name": "video",
+                    "description": "video link",
+                    "mandatory": false,
+                    "restricted": false,
+                    "core": true,
+                    "created_at": "2022-06-03T10:59:19+04:00",
+                    "updated_at": "2022-06-03T10:59:19+04:00",
+                    "value": ""
+                }
+            ],
+            "amenities": [
+                {
+                    "id": 1,
+                    "name": "Balcony"
+                },
+                {
+                    "id": 5,
+                    "name": "Built in wardrobes"
+                },
+                {
+                    "id": 7,
+                    "name": "Central air conditioning"
+                },
+                {
+                    "id": 10,
+                    "name": "Fully fitted kitchen"
+                },
+                {
+                    "id": 15,
+                    "name": "Kitchen Appliances"
+                },
+                {
+                    "id": 16,
+                    "name": "Maids Room"
+                },
+                {
+                    "id": 22,
+                    "name": "Pets allowed"
+                },
+                {
+                    "id": 28,
+                    "name": "Shared swimming pool"
+                },
+                {
+                    "id": 31,
+                    "name": "Study"
+                },
+                {
+                    "id": 35,
+                    "name": "Security"
+                },
+                {
+                    "id": 37,
+                    "name": "Within a Compound"
+                },
+                {
+                    "id": 43,
+                    "name": "Storage room"
+                },
+                {
+                    "id": 63,
+                    "name": "Near supermarket"
+                },
+                {
+                    "id": 69,
+                    "name": "Public parks"
+                },
+                {
+                    "id": 70,
+                    "name": "Near restaurants"
+                },
+                {
+                    "id": 72,
+                    "name": "Near airport"
+                },
+                {
+                    "id": 75,
+                    "name": "Shared Gym"
+                },
+                {
+                    "id": 77,
+                    "name": "Walk-in Closet"
+                },
+                {
+                    "id": 91,
+                    "name": "Children's Play Area"
+                },
+                {
+                    "id": 93,
+                    "name": "Children's Pool"
+                },
+                {
+                    "id": 94,
+                    "name": "Vastu-compliant"
+                }
+            ],
+            "publication": {
+                "propertyfinder": {
+                    "enabled": true,
+                    "first_generated_at": null,
+                    "last_generated_at": null,
+                    "first_fetched_at": null,
+                    "last_fetched_at": null,
+                    "status": 0
+                }
+            },
+            "duplicated_list": [],
+            "acl_rule": "full",
+            "marked_as_seen": false,
+            "listing_level": null,
+            "listing_level_date": null,
+            "listing_expiry_date": null,
+            "listing_auto_renew": null,
+            "listing_status": "not_applicable",
+            "verifications": [],
+            "is_cts_available": false,
+            "is_cts_prioritized": false,
+            "job_token": null,
+            "metadata": {
+                "leads_count": 0
             }
         }
     ]

@@ -6,6 +6,8 @@ urlpatterns = [
 
     path('api/localize-data', FetchPropertyList.as_view(), name="localize-data"),
 
+    path('api/upload-data', UploadDataView.as_view(), name="upload-data"),
+
     # path('api/fetch-agents/<agent_user_id>', GetSingleAgent.as_view(), name="get-single-agent"),
 
     path('api/fetch-agents/<int:user_id>', GetAgents.as_view(), name="get-single-agent"),

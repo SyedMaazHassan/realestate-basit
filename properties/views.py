@@ -15,6 +15,8 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 from django.conf import settings
 import os, json
+from rest_framework import status
+
 
 def authenticate():
     url = "https://api-v2.mycrm.com/token"
@@ -227,6 +229,37 @@ class GetPropertiesFromFile(APIView):
             return Response({'error':str(e)}, status=400)
 
 
+
+class UploadDataView(APIView):
+    allowed_data_types = ['all', 'featured', 'rent', 'sale', 'users']
+
+    def post(self, request, format=None):
+        # Check if 'file' and 'data_type' are in the request data
+        if 'file' not in request.data or 'data_type' not in request.data:
+            return Response({'error': 'Both file and data_type parameters are required'}, status=status.HTTP_400_BAD_REQUEST)
+
+        uploaded_file = request.data['file']
+        data_type = request.data['data_type']
+
+        # Validate data_type parameter
+        if data_type not in self.allowed_data_types:
+            return Response({'error': f'Invalid data_type. Choose from {", ".join(self.allowed_data_types)}'}, status=status.HTTP_400_BAD_REQUEST)
+
+        # Define the directory path based on data_type
+        file_directory = os.path.join(settings.BASE_DIR, 'data')
+        os.makedirs(file_directory, exist_ok=True)
+
+        file_name = uploaded_file.name
+        file_path = os.path.join(file_directory, file_name)
+
+        with open(file_path, 'wb') as destination:
+            for chunk in uploaded_file.chunks():
+                destination.write(chunk)
+
+        return Response({'message': 'File uploaded successfully'}, status=status.HTTP_200_OK)
+
+
+
 class FetchPropertyList(APIView):
     CRM_API_URL = 'https://api-v2.mycrm.com'
     CACHE_KEYS = {
@@ -237,7 +270,6 @@ class FetchPropertyList(APIView):
         'all': 'all_properties',
         'user': 'all_users'
     }
-
 
     
     def get_crm_auth_token(self):
