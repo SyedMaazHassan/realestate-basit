@@ -34,7 +34,8 @@ class DataUpdate(models.Model):
     happened_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.happened_at
+        return str(self.happened_at)
+
 
 # class Price(models.Model):
 #     property = models.OneToOneField('properties.OffPlansProperty', related_name='price', on_delete=models.CASCADE, blank=True, null=True)
