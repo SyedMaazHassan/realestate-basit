@@ -170,8 +170,8 @@
                 "rera_listing": {
                     "number": "65278029051",
                     "issue_date": null,
-                    "expiry_date": null,
-                    "state": "manual"
+                    "expiry_date": "2024-04-18 23:59",
+                    "state": "valid"
                 }
             },
             "images": [
@@ -547,7 +547,7 @@
                     "title": "First Floor Plan.jpg",
                     "file": {
                         "id": 130679254,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8796efa0-761a-4aa8-8c49-e5d0b93f9202.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=995bdc3bc43545d846bf9ff737bdd0f6714ac71329bf9421a83ee3651918657b",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8796efa0-761a-4aa8-8c49-e5d0b93f9202.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=c1536653d07ba06ac8069d7c5c7ad68ab5de8e2eefe282eea4a5310949141291",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -566,7 +566,7 @@
                     "title": "Ground Floor Plan.jpg",
                     "file": {
                         "id": 130679255,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/e023b634-da9f-4299-8eda-794fb4f7eba7.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=6af1a64df0c9cf0423c6e35ad2dee21037ca32874e313b9f7c113b256abaf5bb",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/e023b634-da9f-4299-8eda-794fb4f7eba7.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=eb91acf49797028009d81cf138cd21ccf729fd33e44d2078fcf33520659cc7ea",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -585,7 +585,7 @@
                     "title": "Emirates ID Back.jpg",
                     "file": {
                         "id": 130679256,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/9a3b19d5-0621-4bfc-bad0-03698e13758a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=535dba08f446708fd1eccb10e891ec9a0e591ffdd1360e3d75c1e8cba55536e1",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/9a3b19d5-0621-4bfc-bad0-03698e13758a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=5f99f7dd53696ca955f00fbc693bbf2662d274b7853e8d36d07116c296fa2ab2",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -602,7 +602,7 @@
                     "title": "Emirates ID.jpg",
                     "file": {
                         "id": 130679257,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c60dc443-2192-416e-8119-64df60c9823a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=2121df5b8ec7465330b2ffb6614fef52e1ff3989581593df6f4884a3ae3cef6a",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c60dc443-2192-416e-8119-64df60c9823a.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=2d31610296b70ee48f3938a01a0598f9ca9431b1bedd1533bd1597710af4f94d",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -619,7 +619,7 @@
                     "title": "Title Deed.jpg",
                     "file": {
                         "id": 130679258,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/530f8b75-f13a-42da-8240-b036fb737b55.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=6798f3cd0c99234dae225377453afc941fc647fc772bbdb853335f8452bd04d4",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/530f8b75-f13a-42da-8240-b036fb737b55.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=87c533b552f68cb92890c916f95b684de1da74a928aa7ba0dd872881e7dec532",
                         "created_at": "2023-06-20T21:10:59+04:00"
                     },
                     "created_at": "2023-06-20T21:10:59+04:00",
@@ -636,7 +636,7 @@
                     "title": "Rental Listing Form (2).pdf",
                     "file": {
                         "id": 196319541,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c431de68-04a7-429e-80b2-c0217b61cdba.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=d9cf998c6ad13517c27828dbe39169801dd358e64550dd0e346f72c497f5cf65",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c431de68-04a7-429e-80b2-c0217b61cdba.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=4d36f5ff8103c4fb7f197d2d88e3078e90ecb76a986ac19acdc2716f5a4025aa",
                         "created_at": "2023-09-26T14:49:11+04:00"
                     },
                     "created_at": "2023-09-26T14:49:11+04:00",
@@ -888,10 +888,15 @@
             }
         },
         {
-            "id": 6356761,
-            "import": [],
-            "reference": "trinity-6356761",
-            "hash": "XJk3jsqC5EK8emKmqizkW72EsPw8qEwL5eOHAZdgbmqqaxaEywMagQ3lP5Su3fHa",
+            "id": 6383451,
+            "import": {
+                "propertyfinder": {
+                    "id": "AE-10436878",
+                    "reference": null
+                }
+            },
+            "reference": "trinity-6383451",
+            "hash": "a7VFDMSVpPTTnBO5yyeMJAzkzbSSVj7Goq4azV0qHw4wUD7nSa2tpnguHBRgGbIT",
             "developer": null,
             "charges": null,
             "parking": 2,
@@ -900,20 +905,20 @@
                 "end": null
             },
             "location": {
-                "id": "are.2.8890",
+                "id": "are.3.12033",
                 "city": "Dubai",
                 "community": "Dubai South (Dubai World Central)",
                 "sub_community": "The Pulse",
-                "tower": null,
-                "latitude": 24.93440237658,
-                "longitude": 55.22373229222
+                "tower": "The Pulse Villas",
+                "latitude": 24.951853,
+                "longitude": 55.225333
             },
             "size": 2680,
             "bedrooms": 4,
             "bathrooms": 5,
             "status": "available",
             "available_from": null,
-            "state": "draft",
+            "state": "approved",
             "view_360": null,
             "floor_number": null,
             "unit_number": "205",
@@ -1029,373 +1034,405 @@
             "project_status": "completed",
             "project_name": null,
             "renovation": null,
-            "created_at": "2023-10-17T17:59:25+04:00",
-            "updated_at": "2023-10-17T17:59:25+04:00",
+            "created_at": "2023-10-19T18:10:02+04:00",
+            "updated_at": "2023-10-23T17:48:01+04:00",
             "created_by": "Reksha Kuvan Devadasan",
             "views": [],
             "right_move_url": null,
             "dewa_number": null,
             "layout_type": "Semi-Detached",
-            "title_deed": null,
+            "title_deed": "24948",
             "freehold": null,
             "selected_license": "rera_listing",
+            "licenses": {
+                "rera_listing": {
+                    "number": "69357158094",
+                    "issue_date": null,
+                    "expiry_date": null,
+                    "state": "manual"
+                }
+            },
             "images": [
                 {
-                    "id": 178309646,
+                    "id": 180989051,
                     "order": 1,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f927d0fe-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/30a38370-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/f9561376-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/30c2bd43-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f91a1f03-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/30979a60-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f8d4aa6d-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/30cffe07-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309647,
+                    "id": 180989052,
                     "order": 2,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/ff600736-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/31d3e50f-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/ff849c7b-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/32027e1e-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/ff4ff0ed-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/31c85ed8-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/ff933ac9-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/319bee9c-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309648,
+                    "id": 180989053,
                     "order": 3,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fe9e608b-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2eea7618-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fecbc498-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2e974d2b-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fe903000-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2eda5236-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fe638d4e-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2ea5154b-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309649,
+                    "id": 180989054,
                     "order": 4,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/ff5d7c51-6ceb-11ee-9801-86313c794647.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/332e29ab-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/ff8e0726-6ceb-11ee-9801-86313c794647.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/3354435d-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/ff5133cd-6ceb-11ee-9801-86313c794647.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/33258054-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/ff1b575d-6ceb-11ee-9801-86313c794647.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/32f0988e-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309650,
+                    "id": 180989055,
                     "order": 5,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f9468270-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/29611ac1-6f4f-11ee-88c5-6222403da0c2.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/f9741dd6-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/29844a3b-6f4f-11ee-88c5-6222403da0c2.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f93a7b31-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2952d3be-6f4f-11ee-88c5-6222403da0c2.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f906301b-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/29281ff7-6f4f-11ee-88c5-6222403da0c2.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309651,
+                    "id": 180989056,
                     "order": 6,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fa408cbe-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/295e33ea-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fa6b10e8-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/29841851-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fa356531-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2952d530-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/f9ff00fa-6ceb-11ee-8722-c2cf3ee31386.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/29268696-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309652,
+                    "id": 180989057,
                     "order": 7,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fa767c41-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/29e2eca8-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/faa38612-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2a13ac8f-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fae9816e-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2a48a293-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fab108be-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2a1f0e7c-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309653,
+                    "id": 180989058,
                     "order": 8,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/f9e08c58-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2a9b8e40-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fa036119-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2abe1ba8-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/f9d70ff7-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2af575f9-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fa0da4d1-6ceb-11ee-b754-aae414a0e842.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2aca0cc9-6f4f-11ee-b29a-7e3acc5430be.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309654,
+                    "id": 180989059,
                     "order": 9,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fb20cb8a-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/29d1c1a9-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fb4d2f9d-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/29fb1454-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fb15e4e9-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2a2eaa91-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fb592604-6ceb-11ee-985b-9a65e35c709c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2a03f984-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309655,
+                    "id": 180989060,
                     "order": 10,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fb9bf88b-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2ae2f347-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fbcbe82c-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2b038867-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fb8e7d2c-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2ad5922a-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fb5538d7-6ceb-11ee-a55b-aee3eb712182.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2b0b835e-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309656,
+                    "id": 180989061,
                     "order": 11,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fbb5262d-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2bc58cd5-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fbe230b6-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2bf1f52a-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fc18dc36-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2bb99683-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fbebcb06-6ceb-11ee-b2a3-e6cb8ccba5da.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2bfd915e-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309657,
+                    "id": 180989062,
                     "order": 12,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fcaf0d6c-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2c9d0668-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fcda59c0-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2cc634cd-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fca621f9-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2c93fd69-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fc7761e2-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2c5d99aa-6f4f-11ee-bd6f-12c099b36ef4.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309658,
+                    "id": 180989063,
                     "order": 13,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fd7ba259-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/2f3ec290-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fda2df99-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/2f63694c-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fd708728-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/2f32d92b-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fd3baa33-6ceb-11ee-bb00-4e5422952f0c.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/2efd9e3a-6f4f-11ee-96da-3a91f732d6a1.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309659,
+                    "id": 180989064,
                     "order": 14,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fde3dc4f-6ceb-11ee-8912-368d2ce7772e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/3002a901-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fe081c86-6ceb-11ee-8912-368d2ce7772e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/3027491c-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fdd969d3-6ceb-11ee-8912-368d2ce7772e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/30652e6e-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fdaf9568-6ceb-11ee-8912-368d2ce7772e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/3031adb3-6f4f-11ee-8ebc-72fee8b2267c.png",
                         "width": 0,
                         "height": 0
                     }
                 },
                 {
-                    "id": 178309660,
+                    "id": 180989065,
                     "order": 15,
                     "thumb": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/fe773df3-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/3106546a-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 80,
                         "height": 80
                     },
                     "medium": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/fea669da-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/31251332-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 540,
                         "height": 540
                     },
                     "full": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/fe6af309-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/30fc1c20-6f4f-11ee-b152-0227dbada68b.png",
                         "width": 0,
                         "height": 0
                     },
                     "original": {
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/fe38c862-6ceb-11ee-9873-3a13aa95474e.png",
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/30d04bb3-6f4f-11ee-b152-0227dbada68b.png",
+                        "width": 0,
+                        "height": 0
+                    }
+                },
+                {
+                    "id": 180989066,
+                    "order": 16,
+                    "thumb": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/thumb/8299/32c31ae8-6f4f-11ee-8912-368d2ce7772e.png",
+                        "width": 80,
+                        "height": 80
+                    },
+                    "medium": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/medium/8299/32ea07b1-6f4f-11ee-8912-368d2ce7772e.png",
+                        "width": 540,
+                        "height": 540
+                    },
+                    "full": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/8299/32b6bb85-6f4f-11ee-8912-368d2ce7772e.png",
+                        "width": 0,
+                        "height": 0
+                    },
+                    "original": {
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/image/8299/32787244-6f4f-11ee-8912-368d2ce7772e.png",
                         "width": 0,
                         "height": 0
                     }
@@ -1404,53 +1441,53 @@
             "notes": [],
             "documents": [
                 {
-                    "id": 2179392,
+                    "id": 2191309,
                     "property": {
-                        "id": 6356761
+                        "id": 6383451
                     },
                     "author": null,
                     "title": "ReportBook Pre Title Deed for 205.pdf",
                     "file": {
-                        "id": 213249679,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/c9f2bb95-f039-4927-88b3-effa9272f522.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=36d830e80debfa20100f5f88159feaea60467bcb7302262f0d1ad8a9a8430609",
-                        "created_at": "2023-10-17T17:59:25+04:00"
+                        "id": 215229947,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/415d436d-5b04-49f6-9d0b-0f064633fd86.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=ebec3ea08a06704a3a8fa9f981b90bb600eb1c2a4aa2a2553d83297cf2bf3131",
+                        "created_at": "2023-10-19T18:15:58+04:00"
                     },
-                    "created_at": "2023-10-17T17:59:25+04:00",
-                    "updated_at": "2023-10-17T17:59:25+04:00",
-                    "tag": "Oqood",
+                    "created_at": "2023-10-19T18:15:58+04:00",
+                    "updated_at": "2023-10-19T18:15:58+04:00",
+                    "tag": "Title Deed",
                     "is_submitted": false
                 },
                 {
-                    "id": 2179393,
+                    "id": 2191310,
                     "property": {
-                        "id": 6356761
+                        "id": 6383451
                     },
                     "author": null,
                     "title": "Amer Passport .pdf",
                     "file": {
-                        "id": 213249680,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/db765076-e131-48c5-a293-3efe2df7fcc1.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=71df09ce53708edeacfca0f9ccf12b5f85073b64457ac3956cc607eedf99cf2f",
-                        "created_at": "2023-10-17T17:59:25+04:00"
+                        "id": 215229948,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/8aba596c-3739-4378-9792-574c00e78864.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=c08c887b75d87d3a0d689118fb3ece17a5b6d6529cde61e8428e42a67b7ea105",
+                        "created_at": "2023-10-19T18:15:58+04:00"
                     },
-                    "created_at": "2023-10-17T17:59:25+04:00",
-                    "updated_at": "2023-10-17T17:59:25+04:00",
+                    "created_at": "2023-10-19T18:15:58+04:00",
+                    "updated_at": "2023-10-19T18:15:58+04:00",
                     "tag": "Passport",
                     "is_submitted": false
                 },
                 {
-                    "id": 2179394,
+                    "id": 2191311,
                     "property": {
-                        "id": 6356761
+                        "id": 6383451
                     },
                     "author": null,
                     "title": "CA202310173902_1017T171504_a7d4750a-4d47-4c1f-8703-48f5f18996bd.pdf",
                     "file": {
-                        "id": 213249681,
-                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/eabb185b-3a1f-4d16-9064-fc959461c26b.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231019%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T114910Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=850c41641337cfc2486a56f7af5b17b861861e9c3cc081c390df1e4ea2787e1d",
-                        "created_at": "2023-10-17T17:59:25+04:00"
+                        "id": 215229949,
+                        "link": "https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/documents/8299/0e58dfd7-59a1-49b2-84e3-ebe5c08ed932.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWUVHPJQGHN7RKBHE%2F20231024%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20231024T052215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=ee80f0cdb61469df99951787029af021720da10820dc5cc5fc26c64468aaed98",
+                        "created_at": "2023-10-19T18:15:58+04:00"
                     },
-                    "created_at": "2023-10-17T17:59:25+04:00",
-                    "updated_at": "2023-10-17T17:59:25+04:00",
+                    "created_at": "2023-10-19T18:15:58+04:00",
+                    "updated_at": "2023-10-19T18:15:58+04:00",
                     "tag": "Form A",
                     "is_submitted": false
                 }
@@ -1471,6 +1508,102 @@
                     "value": ""
                 }
             ],
+            "quality_score": {
+                "color": "green",
+                "details": {
+                    "verified": {
+                        "tag": "Yes",
+                        "tag_ar": "\u0646\u0639\u0645",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": "",
+                        "extra_meta_data": {
+                            "is_verifiable": true
+                        }
+                    },
+                    "title": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": ""
+                    },
+                    "description": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": ""
+                    },
+                    "image": {
+                        "tag": "16 / 30",
+                        "tag_ar": "16 / 30",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": "",
+                        "extra_meta_data": {
+                            "score": 1
+                        }
+                    },
+                    "image_duplicates": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "Photos are unique",
+                        "help_ar": "\u0627\u0644\u0635\u0648\u0631 \u0641\u0631\u064a\u062f\u0629 \u0645\u0646 \u0646\u0648\u0639\u0647\u0627",
+                        "extra_meta_data": {
+                            "score": 1
+                        }
+                    },
+                    "images_dimensions": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "Correct photo sizes",
+                        "help_ar": "\u0623\u062d\u062c\u0627\u0645 \u0627\u0644\u0635\u0648\u0631 \u0635\u062d\u064a\u062d\u0629",
+                        "extra_meta_data": {
+                            "score": 1
+                        }
+                    },
+                    "image_diversity": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": ""
+                    },
+                    "price_realism": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "Priced correctly",
+                        "help_ar": "\u0627\u0644\u0633\u0639\u0631 \u0635\u062d\u064a\u062d",
+                        "extra_meta_data": {
+                            "score": 1
+                        }
+                    },
+                    "location": {
+                        "tag": "4 / 4",
+                        "tag_ar": "4 / 4",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": "",
+                        "extra_meta_data": {
+                            "score": 1
+                        }
+                    },
+                    "additional_fields": {
+                        "tag": "Ok",
+                        "tag_ar": "\u062c\u064a\u062f",
+                        "color": "green",
+                        "help": "",
+                        "help_ar": ""
+                    }
+                },
+                "property_id": 10436878,
+                "value": 100,
+                "last_update": "2023-10-21T10:42:05+04:00"
+            },
             "amenities": [
                 {
                     "id": 1,
@@ -1501,6 +1634,14 @@
                     "name": "Pets allowed"
                 },
                 {
+                    "id": 23,
+                    "name": "Private garage"
+                },
+                {
+                    "id": 24,
+                    "name": "Private Garden"
+                },
+                {
                     "id": 28,
                     "name": "Shared swimming pool"
                 },
@@ -1519,6 +1660,10 @@
                 {
                     "id": 43,
                     "name": "Storage room"
+                },
+                {
+                    "id": 59,
+                    "name": "Near school"
                 },
                 {
                     "id": 63,
@@ -1551,31 +1696,33 @@
                 {
                     "id": 93,
                     "name": "Children's Pool"
-                },
-                {
-                    "id": 94,
-                    "name": "Vastu-compliant"
                 }
             ],
             "publication": {
                 "propertyfinder": {
                     "enabled": true,
-                    "first_generated_at": null,
-                    "last_generated_at": null,
+                    "first_generated_at": "2023-10-20T09:55:15+04:00",
+                    "last_generated_at": "2023-10-23T17:48:01+04:00",
                     "first_fetched_at": null,
-                    "last_fetched_at": null,
-                    "status": 0
+                    "last_fetched_at": "2023-10-23T17:48:01+04:00",
+                    "status": 2
                 }
             },
             "duplicated_list": [],
             "acl_rule": "full",
             "marked_as_seen": false,
-            "listing_level": null,
-            "listing_level_date": null,
-            "listing_expiry_date": null,
-            "listing_auto_renew": null,
-            "listing_status": "not_applicable",
-            "verifications": [],
+            "listing_level": "premium",
+            "listing_level_date": "2023-10-23",
+            "listing_expiry_date": "2023-11-07T17:47:59Z",
+            "listing_auto_renew": 0,
+            "listing_status": "online",
+            "verifications": [
+                {
+                    "status": "verified.success",
+                    "rejection_reason": "",
+                    "processed_at": null
+                }
+            ],
             "is_cts_available": false,
             "is_cts_prioritized": false,
             "job_token": null,
