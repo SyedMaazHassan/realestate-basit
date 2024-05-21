@@ -136,15 +136,23 @@ class OpenHouseListView(generics.ListCreateAPIView):
 
 class GetAgents(APIView):
     def search_property_by_agents(self, user_id):
-        file_path = os.path.join(settings.BASE_DIR, "data", "all.json")
-        with open(file_path, 'r') as json_file:
-            properties = json.load(json_file)
+        rent_file_path = os.path.join(settings.BASE_DIR, "data", "rent.json")
+        sale_file_path = os.path.join(settings.BASE_DIR, "data", "sale.json")
+
+        with open(rent_file_path, 'r') as json_file:
+            rent_properties = json.load(json_file)
+
+        with open(sale_file_path, 'r') as json_file:
+            sale_properties = json.load(json_file)
         
+        total_properties = rent_properties + sale_properties
+
         searched_properties = []
-        for property in properties['properties']:
+        for property in total_properties['properties']:
             property_user = property['user']
             if property_user['id'] == user_id:
                 searched_properties.append(property)
+
         return searched_properties
 
 
@@ -193,6 +201,17 @@ class GetSingleProperty(APIView):
                 for property in properties:
                     if property['id'] == property_id:
                         return Response(property, status=status.HTTP_200_OK)
+                    
+
+            file_path = os.path.join(settings.BASE_DIR, "data", 'featured.json')
+
+            with open(file_path, 'r') as json_file:
+                properties = json.load(json_file)
+                properties = properties['properties']
+                for property in properties:
+                    if property['id'] == property_id:
+                        return Response(property, status=status.HTTP_200_OK)
+                    
 
             return Response({'error': "Not found"}, status=status.HTTP_404_NOT_FOUND)
         

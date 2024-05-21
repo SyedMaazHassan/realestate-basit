@@ -277,7 +277,8 @@ CORS_ALLOW_METHODS = [
 CORS_ALLOW_HEADERS = [
     # other allowed headers
     'x-api-key',
-    'Content-Type'
+    'Content-Type',
+    'Authorization'
 ]
 
 
